@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.10.6 GIT</Version>
+  <Author>Matt Allen</Author>
+ </Creator>
+ <Manufacturer>beamZ</Manufacturer>
+ <Model>Panther 40 Led Spot</Model>
+ <Type>Moving Head</Type>
+ <Channel Name="Pan">
+  <Group Byte="0">Pan</Group>
+  <Capability Min="0" Max="255">Adjust Pan motor movement</Capability>
+ </Channel>
+ <Channel Name="Tilt">
+  <Group Byte="0">Tilt</Group>
+  <Capability Min="0" Max="255">Adjust Tilt motor movement</Capability>
+ </Channel>
+ <Channel Name="Pan Fine">
+  <Group Byte="1">Pan</Group>
+  <Capability Min="0" Max="255">Adjust Pan fine movement</Capability>
+ </Channel>
+ <Channel Name="Tilt Fine">
+  <Group Byte="1">Tilt</Group>
+  <Capability Min="0" Max="255">Adjust Tilt fine movement</Capability>
+ </Channel>
+ <Channel Name="Speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Speed slow to fast</Capability>
+ </Channel>
+ <Channel Name="Colour">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="10" Color="#ffffff">White</Capability>
+  <Capability Min="11" Max="21" Color="#ef2929">Red</Capability>
+  <Capability Min="22" Max="32" Color="#f57900">Orange</Capability>
+  <Capability Min="33" Max="43" Color="#fce94f">Yellow</Capability>
+  <Capability Min="44" Max="54" Color="#73d216">Green</Capability>
+  <Capability Min="55" Max="65" Color="#3465a4">Blue</Capability>
+  <Capability Min="66" Max="76" Color="#729fcf">Cyan</Capability>
+  <Capability Min="77" Max="87" Color="#5c3566">Purple</Capability>
+  <Capability Min="88" Max="175">Colour selection 6+</Capability>
+  <Capability Min="176" Max="255">Colour wheel rotation</Capability>
+ </Channel>
+ <Channel Name="Gobo">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="124">Gobo selection</Capability>
+  <Capability Min="125" Max="249">Gobo shaking</Capability>
+  <Capability Min="250" Max="255">Gobo whell rotation</Capability>
+ </Channel>
+ <Channel Name="Dimmer">
+  <Group Byte="0">Intensity</Group>
+  <Capability Min="0" Max="255">Dimming from dark to bright</Capability>
+ </Channel>
+ <Channel Name="Strobe">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="9">Open</Capability>
+  <Capability Min="10" Max="255">Strobe slow to fast</Capability>
+ </Channel>
+ <Channel Name="Scene and Programs">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="49">No function</Capability>
+  <Capability Min="50" Max="59">Whi</Capability>
+  <Capability Min="250" Max="255">Sound mode</Capability>
+ </Channel>
+ <Channel Name="Program speed">
+  <Group Byte="0">Speed</Group>
+  <Capability Min="0" Max="255">Speed slow to fast</Capability>
+ </Channel>
+ <Mode Name="11 Channel Mode">
+  <Physical>
+   <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="12" DegreesMax="12"/>
+   <Focus Type="Fixed" PanMax="540" TiltMax="230"/>
+   <Technical PowerConsumption="75" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Pan</Channel>
+  <Channel Number="1">Tilt</Channel>
+  <Channel Number="2">Pan Fine</Channel>
+  <Channel Number="3">Tilt Fine</Channel>
+  <Channel Number="4">Speed</Channel>
+  <Channel Number="5">Colour</Channel>
+  <Channel Number="6">Gobo</Channel>
+  <Channel Number="7">Dimmer</Channel>
+  <Channel Number="8">Strobe</Channel>
+  <Channel Number="9">Scene and Programs</Channel>
+  <Channel Number="10">Program speed</Channel>
+ </Mode>
+ <Mode Name="9 Channel Mode">
+  <Physical>
+   <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="12" DegreesMax="12"/>
+   <Focus Type="Fixed" PanMax="540" TiltMax="230"/>
+   <Technical PowerConsumption="75" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Pan</Channel>
+  <Channel Number="1">Tilt</Channel>
+  <Channel Number="2">Pan Fine</Channel>
+  <Channel Number="3">Tilt Fine</Channel>
+  <Channel Number="4">Speed</Channel>
+  <Channel Number="5">Colour</Channel>
+  <Channel Number="6">Gobo</Channel>
+  <Channel Number="7">Dimmer</Channel>
+  <Channel Number="8">Strobe</Channel>
+ </Mode>
+ <Mode Name="5 Channel Mode">
+  <Physical>
+   <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="12" DegreesMax="12"/>
+   <Focus Type="Fixed" PanMax="540" TiltMax="230"/>
+   <Technical PowerConsumption="75" DmxConnector="3-pin"/>
+  </Physical>
+  <Channel Number="0">Pan</Channel>
+  <Channel Number="1">Tilt</Channel>
+  <Channel Number="2">Speed</Channel>
+  <Channel Number="3">Colour</Channel>
+  <Channel Number="4">Dimmer</Channel>
+ </Mode>
+</FixtureDefinition>

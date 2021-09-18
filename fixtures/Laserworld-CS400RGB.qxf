@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.10.6 GIT</Version>
+  <Author>Matt Allen</Author>
+ </Creator>
+ <Manufacturer>Laserworld</Manufacturer>
+ <Model>CS400-RGB</Model>
+ <Type>Dimmer</Type>
+ <Channel Name="Mode">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="49">Music</Capability>
+  <Capability Min="50" Max="99">Auto Beams</Capability>
+  <Capability Min="100" Max="149">Audo Graphics</Capability>
+  <Capability Min="150" Max="255">DMX</Capability>
+ </Channel>
+ <Channel Name="Colour">
+  <Group Byte="0">Colour</Group>
+  <Capability Min="0" Max="5">Laser Off</Capability>
+  <Capability Min="6" Max="35">Yellow</Capability>
+  <Capability Min="36" Max="105">Colour Change (inc speed)</Capability>
+  <Capability Min="106" Max="175">Colour Change (orig)</Capability>
+  <Capability Min="176" Max="245">Pattern  coloured randomly</Capability>
+  <Capability Min="246" Max="255">Original Colours</Capability>
+ </Channel>
+ <Channel Name="Patterns">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Vertical">
+  <Group Byte="0">Tilt</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Horizontal">
+  <Group Byte="0">Pan</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Vertical Rotation">
+  <Group Byte="0">Maintenance</Group>
+ </Channel>
+ <Channel Name="Horizontal Rotation">
+  <Group Byte="0">Maintenance</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Rotation">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Zoom">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Size">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Pointdraw">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="255"></Capability>
+ </Channel>
+ <Channel Name="Drawing">
+  <Group Byte="0">Effect</Group>
+  <Capability Min="0" Max="127">Drawing</Capability>
+  <Capability Min="128" Max="255">Drawing/Erazing</Capability>
+ </Channel>
+ <Mode Name="12 Channel">
+  <Physical>
+   <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+   <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+   <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+   <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+   <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+  </Physical>
+  <Channel Number="0">Mode</Channel>
+  <Channel Number="1">Colour</Channel>
+  <Channel Number="2">Patterns</Channel>
+  <Channel Number="3">Vertical</Channel>
+  <Channel Number="4">Horizontal</Channel>
+  <Channel Number="5">Vertical Rotation</Channel>
+  <Channel Number="6">Horizontal Rotation</Channel>
+  <Channel Number="7">Rotation</Channel>
+  <Channel Number="8">Zoom</Channel>
+  <Channel Number="9">Size</Channel>
+  <Channel Number="10">Pointdraw</Channel>
+  <Channel Number="11">Drawing</Channel>
+ </Mode>
+</FixtureDefinition>
