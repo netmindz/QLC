@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE FixtureDefinition>
+<FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
+ <Creator>
+  <Name>Q Light Controller Plus</Name>
+  <Version>4.12.4a</Version>
+  <Author>lighting</Author>
+ </Creator>
+ <Manufacturer>Will Tatam</Manufacturer>
+ <Model>Clouds</Model>
+ <Type>Effect</Type>
+ <Channel Name="Master dimmer" Preset="IntensityMasterDimmer"/>
+ <Channel Name="Pattern">
+  <Group Byte="0">Gobo</Group>
+  <Capability Min="0" Max="84">Auto</Capability>
+  <Capability Min="85" Max="169">Storm</Capability>
+  <Capability Min="170" Max="254">Lightning</Capability>
+ </Channel>
+ <Channel Name="Speed">
+  <Group Byte="0">Effect</Group>
+ </Channel>
+ <Channel Name="Fade">
+  <Group Byte="0">Effect</Group>
+ </Channel>
+ <Channel Name="Cluster">
+  <Group Byte="0">Effect</Group>
+ </Channel>
+ <Channel Name="Chance">
+  <Group Byte="0">Effect</Group>
+ </Channel>
+ <Mode Name="Mode1">
+  <Channel Number="0">Master dimmer</Channel>
+  <Channel Number="1">Pattern</Channel>
+  <Channel Number="2">Speed</Channel>
+  <Channel Number="3">Fade</Channel>
+  <Channel Number="4">Cluster</Channel>
+  <Channel Number="5">Chance</Channel>
+ </Mode>
+ <Physical>
+  <Bulb Type="" Lumens="0" ColourTemperature="0"/>
+  <Dimensions Weight="0" Width="0" Height="0" Depth="0"/>
+  <Lens Name="Other" DegreesMin="0" DegreesMax="0"/>
+  <Focus Type="Fixed" PanMax="0" TiltMax="0"/>
+  <Technical PowerConsumption="0" DmxConnector="5-pin"/>
+ </Physical>
+</FixtureDefinition>
