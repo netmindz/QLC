@@ -14,9 +14,15 @@
     </Output>
    </Universe>
    <Universe Name="Universe 2" ID="1">
-    <Output Plugin="E1.31" Line="1"/>
+    <Output Plugin="E1.31" Line="1">
+     <PluginParameters UniverseChannels="4"/>
+    </Output>
    </Universe>
-   <Universe Name="Universe 3" ID="2"/>
+   <Universe Name="Universe 3" ID="2">
+    <Output Plugin="E1.31" Line="1">
+     <PluginParameters UniverseChannels="6"/>
+    </Output>
+   </Universe>
    <Universe Name="Universe 4" ID="3"/>
   </InputOutputMap>
   <Fixture>
@@ -36,6 +42,26 @@
    <ID>1</ID>
    <Name>Trance Jellyfish</Name>
    <Universe>0</Universe>
+   <Address>0</Address>
+   <Channels>6</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Will Tatam</Manufacturer>
+   <Model>Mesmeriszer</Model>
+   <Mode>Mode</Mode>
+   <ID>2</ID>
+   <Name>Mesmeriszer</Name>
+   <Universe>1</Universe>
+   <Address>0</Address>
+   <Channels>4</Channels>
+  </Fixture>
+  <Fixture>
+   <Manufacturer>Will Tatam</Manufacturer>
+   <Model>Clouds</Model>
+   <Mode>Mode1</Mode>
+   <ID>3</ID>
+   <Name>Clouds</Name>
+   <Universe>2</Universe>
    <Address>0</Address>
    <Channels>6</Channels>
   </Fixture>
@@ -277,6 +303,38 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">50</Step>
    <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">51</Step>
   </Function>
+  <Function ID="53" Type="Scene" Name="Capability 1 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,3</FixtureVal>
+  </Function>
+  <Function ID="54" Type="Scene" Name="Capability 2 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,11</FixtureVal>
+  </Function>
+  <Function ID="55" Type="Scene" Name="Capability 3 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,19</FixtureVal>
+  </Function>
+  <Function ID="56" Type="Scene" Name="Capability 4 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,27</FixtureVal>
+  </Function>
+  <Function ID="57" Type="Scene" Name="Capability 5 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,35</FixtureVal>
+  </Function>
+  <Function ID="58" Type="Scene" Name="Capability 6 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,43</FixtureVal>
+  </Function>
+  <Function ID="59" Type="Scene" Name="Capability 7 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,51</FixtureVal>
+  </Function>
+  <Function ID="60" Type="Scene" Name="Capability 8 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,59</FixtureVal>
+  </Function>
   <Function ID="61" Type="Chaser" Name="movers-move-side shimmy">
    <Speed FadeIn="0" FadeOut="0" Duration="2000"/>
    <Direction>Forward</Direction>
@@ -284,6 +342,50 @@
    <SpeedModes FadeIn="Default" FadeOut="Default" Duration="Common"/>
    <Step Number="0" FadeIn="1000" Hold="0" FadeOut="0">16</Step>
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">15</Step>
+  </Function>
+  <Function ID="62" Type="Scene" Name="Capability 9 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,67</FixtureVal>
+  </Function>
+  <Function ID="63" Type="Scene" Name="Capability 10 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,75</FixtureVal>
+  </Function>
+  <Function ID="64" Type="Scene" Name="Capability 11 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,83</FixtureVal>
+  </Function>
+  <Function ID="65" Type="Scene" Name="Capability 12 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,91</FixtureVal>
+  </Function>
+  <Function ID="66" Type="Scene" Name="Capability 13 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,99</FixtureVal>
+  </Function>
+  <Function ID="67" Type="Scene" Name="Capability 14 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,107</FixtureVal>
+  </Function>
+  <Function ID="68" Type="Scene" Name="Capability 15 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,115</FixtureVal>
+  </Function>
+  <Function ID="69" Type="Scene" Name="Capability 16 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,123</FixtureVal>
+  </Function>
+  <Function ID="70" Type="Scene" Name="Capability 17 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,131</FixtureVal>
+  </Function>
+  <Function ID="71" Type="Scene" Name="Capability 18 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,139</FixtureVal>
+  </Function>
+  <Function ID="72" Type="Scene" Name="Capability 19 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,147</FixtureVal>
   </Function>
   <Function ID="73" Type="Scene" Name="Auto - Trance Jellyfish">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -342,6 +444,283 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">79</Step>
    <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">80</Step>
    <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">82</Step>
+  </Function>
+  <Function ID="85" Type="Scene" Name="Capability 20 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,155</FixtureVal>
+  </Function>
+  <Function ID="86" Type="Scene" Name="Capability 21 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,163</FixtureVal>
+  </Function>
+  <Function ID="87" Type="Scene" Name="Capability 22 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,171</FixtureVal>
+  </Function>
+  <Function ID="88" Type="Scene" Name="Capability 23 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,179</FixtureVal>
+  </Function>
+  <Function ID="89" Type="Scene" Name="Capability 24 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,187</FixtureVal>
+  </Function>
+  <Function ID="90" Type="Scene" Name="Capability 25 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,195</FixtureVal>
+  </Function>
+  <Function ID="91" Type="Scene" Name="Capability 26 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,203</FixtureVal>
+  </Function>
+  <Function ID="92" Type="Scene" Name="Capability 27 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,211</FixtureVal>
+  </Function>
+  <Function ID="93" Type="Scene" Name="Capability 28 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,219</FixtureVal>
+  </Function>
+  <Function ID="94" Type="Scene" Name="Capability 29 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,227</FixtureVal>
+  </Function>
+  <Function ID="95" Type="Scene" Name="Capability 30 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,235</FixtureVal>
+  </Function>
+  <Function ID="96" Type="Scene" Name="Capability 31 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,243</FixtureVal>
+  </Function>
+  <Function ID="97" Type="Scene" Name="Capability 32 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,251</FixtureVal>
+  </Function>
+  <Function ID="98" Type="Chaser" Name="Gobo macros chaser - Mesmeriszer">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">53</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">54</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">55</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">56</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">57</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">58</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">59</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">60</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">62</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">63</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">64</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">65</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">66</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">67</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">68</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">69</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">70</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">71</Step>
+   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">72</Step>
+   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">85</Step>
+   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">86</Step>
+   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">87</Step>
+   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">88</Step>
+   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">89</Step>
+   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">90</Step>
+   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">91</Step>
+   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">92</Step>
+   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">93</Step>
+   <Step Number="28" FadeIn="0" Hold="0" FadeOut="0">94</Step>
+   <Step Number="29" FadeIn="0" Hold="0" FadeOut="0">95</Step>
+   <Step Number="30" FadeIn="0" Hold="0" FadeOut="0">96</Step>
+   <Step Number="31" FadeIn="0" Hold="0" FadeOut="0">97</Step>
+  </Function>
+  <Function ID="99" Type="Scene" Name="Auto - Clouds">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">1,42</FixtureVal>
+  </Function>
+  <Function ID="100" Type="Scene" Name="Storm - Clouds">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">1,127</FixtureVal>
+  </Function>
+  <Function ID="101" Type="Scene" Name="Lightning - Clouds">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">1,212</FixtureVal>
+  </Function>
+  <Function ID="102" Type="Chaser" Name="Gobo macros chaser - Clouds">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">99</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">100</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">101</Step>
+  </Function>
+  <Function ID="103" Type="Scene" Name="Capability 1 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,3</FixtureVal>
+  </Function>
+  <Function ID="104" Type="Scene" Name="Capability 2 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,11</FixtureVal>
+  </Function>
+  <Function ID="105" Type="Scene" Name="Capability 3 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,19</FixtureVal>
+  </Function>
+  <Function ID="106" Type="Scene" Name="Capability 4 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,27</FixtureVal>
+  </Function>
+  <Function ID="107" Type="Scene" Name="Capability 5 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,35</FixtureVal>
+  </Function>
+  <Function ID="108" Type="Scene" Name="Capability 6 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,43</FixtureVal>
+  </Function>
+  <Function ID="109" Type="Scene" Name="Capability 7 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,51</FixtureVal>
+  </Function>
+  <Function ID="110" Type="Scene" Name="Capability 8 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,59</FixtureVal>
+  </Function>
+  <Function ID="111" Type="Scene" Name="Capability 9 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,67</FixtureVal>
+  </Function>
+  <Function ID="112" Type="Scene" Name="Capability 10 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,75</FixtureVal>
+  </Function>
+  <Function ID="113" Type="Scene" Name="Capability 11 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,83</FixtureVal>
+  </Function>
+  <Function ID="114" Type="Scene" Name="Capability 12 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,91</FixtureVal>
+  </Function>
+  <Function ID="115" Type="Scene" Name="Capability 13 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,99</FixtureVal>
+  </Function>
+  <Function ID="116" Type="Scene" Name="Capability 14 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,107</FixtureVal>
+  </Function>
+  <Function ID="117" Type="Scene" Name="Capability 15 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,115</FixtureVal>
+  </Function>
+  <Function ID="118" Type="Scene" Name="Capability 16 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,123</FixtureVal>
+  </Function>
+  <Function ID="119" Type="Scene" Name="Capability 17 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,131</FixtureVal>
+  </Function>
+  <Function ID="120" Type="Scene" Name="Capability 18 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,139</FixtureVal>
+  </Function>
+  <Function ID="121" Type="Scene" Name="Capability 19 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,147</FixtureVal>
+  </Function>
+  <Function ID="122" Type="Scene" Name="Capability 20 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,155</FixtureVal>
+  </Function>
+  <Function ID="123" Type="Scene" Name="Capability 21 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,163</FixtureVal>
+  </Function>
+  <Function ID="124" Type="Scene" Name="Capability 22 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,171</FixtureVal>
+  </Function>
+  <Function ID="125" Type="Scene" Name="Capability 23 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,179</FixtureVal>
+  </Function>
+  <Function ID="126" Type="Scene" Name="Capability 24 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,187</FixtureVal>
+  </Function>
+  <Function ID="127" Type="Scene" Name="Capability 25 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,195</FixtureVal>
+  </Function>
+  <Function ID="128" Type="Scene" Name="Capability 26 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,203</FixtureVal>
+  </Function>
+  <Function ID="129" Type="Scene" Name="Capability 27 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,211</FixtureVal>
+  </Function>
+  <Function ID="130" Type="Scene" Name="Capability 28 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,219</FixtureVal>
+  </Function>
+  <Function ID="131" Type="Scene" Name="Capability 29 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,227</FixtureVal>
+  </Function>
+  <Function ID="132" Type="Scene" Name="Capability 30 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,235</FixtureVal>
+  </Function>
+  <Function ID="133" Type="Scene" Name="Capability 31 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,243</FixtureVal>
+  </Function>
+  <Function ID="134" Type="Scene" Name="Capability 32 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">1,251</FixtureVal>
+  </Function>
+  <Function ID="135" Type="Chaser" Name="Gobo macros chaser - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="180000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">103</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">104</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">105</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">106</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">107</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">108</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">109</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">110</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">111</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">112</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">113</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">114</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">115</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">116</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">117</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">118</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">119</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">120</Step>
+   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">121</Step>
+   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">122</Step>
+   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">123</Step>
+   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">124</Step>
+   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">125</Step>
+   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">126</Step>
+   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">127</Step>
+   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">128</Step>
+   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">129</Step>
+   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">130</Step>
+   <Step Number="28" FadeIn="0" Hold="0" FadeOut="0">131</Step>
+   <Step Number="29" FadeIn="0" Hold="0" FadeOut="0">132</Step>
+   <Step Number="30" FadeIn="0" Hold="0" FadeOut="0">133</Step>
+   <Step Number="31" FadeIn="0" Hold="0" FadeOut="0">134</Step>
   </Function>
  </Engine>
  <VirtualConsole>
@@ -541,113 +920,8 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
+     <Level LowLimit="0" HighLimit="255" Value="242">
       <Channel Fixture="0">7</Channel>
-     </Level>
-     <Playback>
-      <Function>4294967295</Function>
-     </Playback>
-    </Slider>
-   </Frame>
-   <Frame Caption="Gobo macros - Panther 40 Led Spot" ID="14">
-    <Appearance>
-     <FrameStyle>Sunken</FrameStyle>
-     <ForegroundColor>Default</ForegroundColor>
-     <BackgroundColor>Default</BackgroundColor>
-     <BackgroundImage>None</BackgroundImage>
-     <Font>Default</Font>
-    </Appearance>
-    <WindowState Visible="True" X="670" Y="10" Width="590" Height="270"/>
-    <AllowChildren>True</AllowChildren>
-    <AllowResize>True</AllowResize>
-    <ShowHeader>True</ShowHeader>
-    <ShowEnableButton>True</ShowEnableButton>
-    <Collapsed>False</Collapsed>
-    <Disabled>False</Disabled>
-    <SoloFrame Caption="Presets solo frame" ID="15">
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <WindowState Visible="True" X="10" Y="40" Width="190" Height="100"/>
-     <AllowChildren>True</AllowChildren>
-     <AllowResize>True</AllowResize>
-     <ShowHeader>True</ShowHeader>
-     <ShowEnableButton>True</ShowEnableButton>
-     <Mixing>False</Mixing>
-     <Collapsed>False</Collapsed>
-     <Disabled>True</Disabled>
-     <Button Caption="Gobo selection" ID="16" Icon="">
-      <WindowState Visible="True" X="10" Y="40" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="11"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="Gobo shaking" ID="17" Icon="">
-      <WindowState Visible="True" X="70" Y="40" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="12"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-     <Button Caption="Gobo whell rotation" ID="18" Icon="">
-      <WindowState Visible="True" X="130" Y="40" Width="50" Height="50"/>
-      <Appearance>
-       <FrameStyle>None</FrameStyle>
-       <ForegroundColor>Default</ForegroundColor>
-       <BackgroundColor>Default</BackgroundColor>
-       <BackgroundImage>None</BackgroundImage>
-       <Font>Default</Font>
-      </Appearance>
-      <Function ID="13"/>
-      <Action>Toggle</Action>
-      <Intensity Adjust="False">100</Intensity>
-     </Button>
-    </SoloFrame>
-    <CueList Caption="Gobo macros chaser" ID="19">
-     <WindowState Visible="True" X="210" Y="40" Width="300" Height="220"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <Chaser>14</Chaser>
-     <NextPrevBehavior>0</NextPrevBehavior>
-     <Next/>
-     <Previous/>
-     <Playback/>
-     <Stop/>
-    </CueList>
-    <Slider Caption="Click &amp; Go Macro" ID="20" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="520" Y="40" Width="60" Height="200"/>
-     <Appearance>
-      <FrameStyle>Sunken</FrameStyle>
-      <ForegroundColor>Default</ForegroundColor>
-      <BackgroundColor>Default</BackgroundColor>
-      <BackgroundImage>None</BackgroundImage>
-      <Font>Default</Font>
-     </Appearance>
-     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="0">
-      <Channel Fixture="0">6</Channel>
      </Level>
      <Playback>
       <Function>4294967295</Function>
@@ -679,7 +953,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="194">
+     <Level LowLimit="0" HighLimit="255" Value="251">
       <Channel Fixture="1">0</Channel>
      </Level>
      <Playback>
@@ -696,7 +970,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="13">
+     <Level LowLimit="0" HighLimit="255" Value="170">
       <Channel Fixture="1">1</Channel>
      </Level>
      <Playback>
@@ -713,7 +987,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="246">
+     <Level LowLimit="0" HighLimit="255" Value="228">
       <Channel Fixture="1">2</Channel>
      </Level>
      <Playback>
@@ -730,7 +1004,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="184">
+     <Level LowLimit="0" HighLimit="255" Value="188">
       <Channel Fixture="1">3</Channel>
      </Level>
      <Playback>
@@ -1005,6 +1279,601 @@
       <Intensity Adjust="False">100</Intensity>
      </Button>
     </SoloFrame>
+   </Frame>
+   <Frame Caption="Mesmeriszer" ID="14">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="665" Y="10" Width="835" Height="575"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <SoloFrame Caption="Presets solo frame" ID="15">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="10" Y="40" Width="250" Height="520"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="Auto" ID="16" Icon="">
+      <WindowState Visible="True" X="10" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="53"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="star" ID="17" Icon="">
+      <WindowState Visible="True" X="70" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="54"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="EQ" ID="18" Icon="">
+      <WindowState Visible="True" X="130" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="55"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="VU" ID="19" Icon="">
+      <WindowState Visible="True" X="190" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="56"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Ribbon" ID="20" Icon="">
+      <WindowState Visible="True" X="10" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="57"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="DJLite" ID="26" Icon="">
+      <WindowState Visible="True" X="70" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="58"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 7" ID="35" Icon="">
+      <WindowState Visible="True" X="130" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="59"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 8" ID="36" Icon="">
+      <WindowState Visible="True" X="190" Y="100" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="60"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 9" ID="37" Icon="">
+      <WindowState Visible="True" X="10" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="62"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 10" ID="38" Icon="">
+      <WindowState Visible="True" X="70" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="63"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 11" ID="39" Icon="">
+      <WindowState Visible="True" X="130" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="64"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 12" ID="40" Icon="">
+      <WindowState Visible="True" X="190" Y="160" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="65"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 13" ID="41" Icon="">
+      <WindowState Visible="True" X="10" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="66"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 14" ID="54" Icon="">
+      <WindowState Visible="True" X="70" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="67"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 15" ID="55" Icon="">
+      <WindowState Visible="True" X="130" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="68"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 16" ID="56" Icon="">
+      <WindowState Visible="True" X="190" Y="220" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="69"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 17" ID="57" Icon="">
+      <WindowState Visible="True" X="10" Y="280" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="70"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 18" ID="58" Icon="">
+      <WindowState Visible="True" X="70" Y="280" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="71"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 19" ID="59" Icon="">
+      <WindowState Visible="True" X="130" Y="280" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="72"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 20" ID="60" Icon="">
+      <WindowState Visible="True" X="190" Y="280" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="85"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 21" ID="61" Icon="">
+      <WindowState Visible="True" X="10" Y="340" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="86"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 22" ID="62" Icon="">
+      <WindowState Visible="True" X="70" Y="340" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="87"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 23" ID="63" Icon="">
+      <WindowState Visible="True" X="130" Y="340" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="88"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Vortex" ID="64" Icon="">
+      <WindowState Visible="True" X="190" Y="340" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="89"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Squares" ID="65" Icon="">
+      <WindowState Visible="True" X="10" Y="400" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="90"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Capability 29" ID="69" Icon="">
+      <WindowState Visible="True" X="70" Y="400" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="94"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
+    <Slider Caption="Bright" ID="74" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="265" Y="40" Width="70" Height="520"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="219">
+      <Channel Fixture="2">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Speed" ID="75" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="340" Y="40" Width="70" Height="520"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="231">
+      <Channel Fixture="2">2</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Fade" ID="76" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="415" Y="40" Width="70" Height="520"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="201">
+      <Channel Fixture="2">3</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <CueList Caption="Gobo macros chaser" ID="117">
+     <WindowState Visible="True" X="530" Y="60" Width="280" Height="400"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>135</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback/>
+     <Stop/>
+    </CueList>
+   </Frame>
+   <Frame Caption="Clouds" ID="70">
+    <Appearance>
+     <FrameStyle>Sunken</FrameStyle>
+     <ForegroundColor>Default</ForegroundColor>
+     <BackgroundColor>Default</BackgroundColor>
+     <BackgroundImage>None</BackgroundImage>
+     <Font>Default</Font>
+    </Appearance>
+    <WindowState Visible="True" X="675" Y="590" Width="465" Height="255"/>
+    <AllowChildren>True</AllowChildren>
+    <AllowResize>True</AllowResize>
+    <ShowHeader>True</ShowHeader>
+    <ShowEnableButton>True</ShowEnableButton>
+    <Collapsed>False</Collapsed>
+    <Disabled>False</Disabled>
+    <SoloFrame Caption="Presets solo frame" ID="71">
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <WindowState Visible="True" X="20" Y="40" Width="70" Height="205"/>
+     <AllowChildren>True</AllowChildren>
+     <AllowResize>True</AllowResize>
+     <ShowHeader>True</ShowHeader>
+     <ShowEnableButton>True</ShowEnableButton>
+     <Mixing>False</Mixing>
+     <Collapsed>False</Collapsed>
+     <Disabled>False</Disabled>
+     <Button Caption="Auto" ID="72" Icon="">
+      <WindowState Visible="True" X="10" Y="40" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="99"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Storm" ID="73" Icon="">
+      <WindowState Visible="True" X="10" Y="95" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="100"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+     <Button Caption="Lightning" ID="77" Icon="">
+      <WindowState Visible="True" X="10" Y="150" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="101"/>
+      <Action>Toggle</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
+    </SoloFrame>
+    <Slider Caption="Bright" ID="79" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="100" Y="45" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="255">
+      <Channel Fixture="3">0</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Speed" ID="80" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="170" Y="45" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="3">2</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Fade" ID="81" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="235" Y="45" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="3">3</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Cluster" ID="78" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="300" Y="45" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="234">
+      <Channel Fixture="3">4</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
+    <Slider Caption="Chance" ID="82" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="365" Y="45" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="255" Value="0">
+      <Channel Fixture="3">5</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
    </Frame>
   </Frame>
   <Properties>
