@@ -3,7 +3,7 @@
 <FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.12.4a</Version>
+  <Version>4.12.4</Version>
   <Author>lighting</Author>
  </Creator>
  <Manufacturer>Will Tatam</Manufacturer>
@@ -12,38 +12,38 @@
  <Channel Name="Dimmer" Preset="IntensityDimmer"/>
  <Channel Name="Pattern">
   <Group Byte="0">Gobo</Group>
-  <Capability Min="0" Max="7">Capability 1</Capability>
-  <Capability Min="8" Max="15">Capability 2</Capability>
-  <Capability Min="16" Max="23">Capability 3</Capability>
-  <Capability Min="24" Max="31">Capability 4</Capability>
-  <Capability Min="32" Max="39">Capability 5</Capability>
-  <Capability Min="40" Max="47">Capability 6</Capability>
-  <Capability Min="48" Max="55">Capability 7</Capability>
-  <Capability Min="56" Max="63">Capability 8</Capability>
-  <Capability Min="64" Max="71">Capability 9</Capability>
-  <Capability Min="72" Max="79">Capability 10</Capability>
-  <Capability Min="80" Max="87">Capability 11</Capability>
-  <Capability Min="88" Max="95">Capability 12</Capability>
-  <Capability Min="96" Max="103">Capability 13</Capability>
-  <Capability Min="104" Max="111">Capability 14</Capability>
-  <Capability Min="112" Max="119">Capability 15</Capability>
-  <Capability Min="120" Max="127">Capability 16</Capability>
-  <Capability Min="128" Max="135">Capability 17</Capability>
-  <Capability Min="136" Max="143">Capability 18</Capability>
-  <Capability Min="144" Max="151">Capability 19</Capability>
-  <Capability Min="152" Max="159">Capability 20</Capability>
-  <Capability Min="160" Max="167">Capability 21</Capability>
-  <Capability Min="168" Max="175">Capability 22</Capability>
-  <Capability Min="176" Max="183">Capability 23</Capability>
-  <Capability Min="184" Max="191">Capability 24</Capability>
-  <Capability Min="192" Max="199">Capability 25</Capability>
-  <Capability Min="200" Max="207">Capability 26</Capability>
-  <Capability Min="208" Max="215">Capability 27</Capability>
-  <Capability Min="216" Max="223">Capability 28</Capability>
-  <Capability Min="224" Max="231">Capability 29</Capability>
-  <Capability Min="232" Max="239">Capability 30</Capability>
-  <Capability Min="240" Max="247">Capability 31</Capability>
-  <Capability Min="248" Max="255">Capability 32</Capability>
+  <Capability Min="0" Max="7">Auto Run</Capability>
+  <Capability Min="8" Max="15">autoMusicVisualizing</Capability>
+  <Capability Min="16" Max="23">drawCirclesFrame</Capability>
+  <Capability Min="24" Max="31">drawCirclesFrame</Capability>
+  <Capability Min="32" Max="39">showStars</Capability>
+  <Capability Min="40" Max="47">EQ</Capability>
+  <Capability Min="48" Max="55">VU</Capability>
+  <Capability Min="56" Max="63">FunkyPlank</Capability>
+  <Capability Min="64" Max="71">DJLight</Capability>
+  <Capability Min="72" Max="79">vortex</Capability>
+  <Capability Min="80" Max="87">squares</Capability>
+  <Capability Min="88" Max="95">MirroredNoise</Capability>
+  <Capability Min="96" Max="103">Lavalamp5</Capability>
+  <Capability Min="104" Max="111">Constrained1</Capability>
+  <Capability Min="112" Max="119">TripleMotion</Capability>
+  <Capability Min="120" Max="127">CrossNoise</Capability>
+  <Capability Min="128" Max="135">CrossNoise2</Capability>
+  <Capability Min="136" Max="143">RandomAnimation</Capability>
+  <Capability Min="144" Max="151">MilliTimer</Capability>
+  <Capability Min="152" Max="159">Caleido1</Capability>
+  <Capability Min="160" Max="167">Caleido2</Capability>
+  <Capability Min="168" Max="175">Caleido5</Capability>
+  <Capability Min="176" Max="183">Mandala8</Capability>
+  <Capability Min="184" Max="191">SlowMandala3</Capability>
+  <Capability Min="192" Max="199">MSGEQtest2</Capability>
+  <Capability Min="200" Max="207">MSGEQtest4</Capability>
+  <Capability Min="208" Max="215">MSGEQtest7</Capability>
+  <Capability Min="216" Max="223">MSGEQtest8</Capability>
+  <Capability Min="224" Max="231">Audio2</Capability>
+  <Capability Min="232" Max="239">CaleidoTest1</Capability>
+  <Capability Min="240" Max="247">CaleidoTest2</Capability>
+  <Capability Min="248" Max="255">Audio6</Capability>
  </Channel>
  <Channel Name="Speed">
   <Group Byte="0">Effect</Group>
