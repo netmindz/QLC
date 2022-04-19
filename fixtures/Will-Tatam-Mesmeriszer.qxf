@@ -13,7 +13,7 @@
  <Channel Name="Pattern">
   <Group Byte="0">Gobo</Group>
   <Capability Min="0" Max="7">Auto Run</Capability>
-  <Capability Min="8" Max="15">autoMusicVisualizing</Capability>
+  <Capability Min="8" Max="15">autoAudio</Capability>
   <Capability Min="16" Max="23">drawCirclesFrame</Capability>
   <Capability Min="24" Max="31">drawCirclesFrame</Capability>
   <Capability Min="32" Max="39">showStars</Capability>
