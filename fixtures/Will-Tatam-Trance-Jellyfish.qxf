@@ -27,36 +27,36 @@
  </Channel>
  <Channel Name="Pattern">
   <Group Byte="0">Gobo</Group>
-  <Capability Min="0" Max="8">autoRun</Capability>
-  <Capability Min="9" Max="17">FunkyPlank</Capability>
-  <Capability Min="18" Max="26">DJLight</Capability>
-  <Capability Min="27" Max="35">EQ</Capability>
-  <Capability Min="36" Max="44">pixels</Capability>
-  <Capability Min="45" Max="53">fillnoise</Capability>
-  <Capability Min="54" Max="62">jugglep</Capability>
-  <Capability Min="63" Max="71">ripple</Capability>
-  <Capability Min="72" Max="80">pixel</Capability>
-  <Capability Min="81" Max="89">matrix</Capability>
-  <Capability Min="90" Max="98">onesine</Capability>
-  <Capability Min="99" Max="107">noisefire</Capability>
-  <Capability Min="108" Max="116">rainbowbit</Capability>
-  <Capability Min="117" Max="125">noisefiretest</Capability>
-  <Capability Min="126" Max="134">rainbowg</Capability>
-  <Capability Min="135" Max="143">noisewide</Capability>
-  <Capability Min="144" Max="152">plasma</Capability>
-  <Capability Min="153" Max="161">besin</Capability>
-  <Capability Min="162" Max="170">noisepal</Capability>
-  <Capability Min="171" Max="179">cylon</Capability>
-  <Capability Min="180" Max="188">rainbowSweep</Capability>
-  <Capability Min="189" Max="197">Rainbow</Capability>
-  <Capability Min="198" Max="206">dsnake</Capability>
-  <Capability Min="207" Max="215">RainbowWash</Capability>
-  <Capability Min="216" Max="224">Ripple</Capability>
-  <Capability Min="225" Max="233">sinwave_1</Capability>
-  <Capability Min="234" Max="242">confetti</Capability>
-  <Capability Min="243" Max="251">sinelon</Capability>
-  <Capability Min="252" Max="255">juggle</Capability>
- </Channel>
+<Capability Min="0" Max="8">auotrun</Capability>
+   <Capability Min="9" Max="17">FunkyPlank</Capability>
+   <Capability Min="18" Max="26">DJLight</Capability>
+   <Capability Min="27" Max="35">EQ</Capability>
+   <Capability Min="36" Max="44">pixels</Capability>
+   <Capability Min="45" Max="53">fillnoise</Capability>
+   <Capability Min="54" Max="62">jugglep</Capability>
+   <Capability Min="63" Max="71">ripple</Capability>
+   <Capability Min="72" Max="80">pixel</Capability>
+   <Capability Min="81" Max="89">matrix</Capability>
+   <Capability Min="90" Max="98">onesine</Capability>
+   <Capability Min="99" Max="107">noisefire</Capability>
+   <Capability Min="108" Max="116">rainbowbit</Capability>
+   <Capability Min="117" Max="125">noisefiretest</Capability>
+   <Capability Min="126" Max="134">rainbowg</Capability>
+   <Capability Min="135" Max="143">noisewide</Capability>
+   <Capability Min="144" Max="152">plasma</Capability>
+   <Capability Min="153" Max="161">besin</Capability>
+   <Capability Min="162" Max="170">noisepal</Capability>
+   <Capability Min="171" Max="179">cylon</Capability>
+   <Capability Min="180" Max="188">rainbowSweep</Capability>
+   <Capability Min="189" Max="197">Rainbow</Capability>
+   <Capability Min="198" Max="206">dsnake</Capability>
+   <Capability Min="207" Max="215">RainbowWash</Capability>
+   <Capability Min="216" Max="224">Ripple</Capability>
+   <Capability Min="225" Max="233">sinwave_1</Capability>
+   <Capability Min="234" Max="242">confetti</Capability>
+   <Capability Min="243" Max="251">sinelon</Capability>
+   <Capability Min="252" Max="255">juggle</Capability> 
+</Channel>
  <Channel Name="Palatte">
   <Group Byte="0">Colour</Group>
   <Capability Min="0" Max="35">Rainbow</Capability>
