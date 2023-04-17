@@ -3,10 +3,10 @@
 <FixtureDefinition xmlns="http://www.qlcplus.org/FixtureDefinition">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.12.4</Version>
+  <Version>4.12.6</Version>
   <Author>Will Tatam</Author>
  </Creator>
- <Manufacturer>Will Tatam</Manufacturer>
+ <Manufacturer>MilliWatt</Manufacturer>
  <Model>Trance Jellyfish</Model>
  <Type>Effect</Type>
  <Channel Name="Intensity">
@@ -27,45 +27,107 @@
  </Channel>
  <Channel Name="Pattern">
   <Group Byte="0">Gobo</Group>
-<Capability Min="0" Max="8">auotrun</Capability>
-   <Capability Min="9" Max="17">FunkyPlank</Capability>
-   <Capability Min="18" Max="26">DJLight</Capability>
-   <Capability Min="27" Max="35">EQ</Capability>
-   <Capability Min="36" Max="44">pixels</Capability>
-   <Capability Min="45" Max="53">fillnoise</Capability>
-   <Capability Min="54" Max="62">jugglep</Capability>
-   <Capability Min="63" Max="71">ripple</Capability>
-   <Capability Min="72" Max="80">pixel</Capability>
-   <Capability Min="81" Max="89">matrix</Capability>
-   <Capability Min="90" Max="98">onesine</Capability>
-   <Capability Min="99" Max="107">noisefire</Capability>
-   <Capability Min="108" Max="116">rainbowbit</Capability>
-   <Capability Min="117" Max="125">noisefiretest</Capability>
-   <Capability Min="126" Max="134">rainbowg</Capability>
-   <Capability Min="135" Max="143">noisewide</Capability>
-   <Capability Min="144" Max="152">plasma</Capability>
-   <Capability Min="153" Max="161">besin</Capability>
-   <Capability Min="162" Max="170">noisepal</Capability>
-   <Capability Min="171" Max="179">cylon</Capability>
-   <Capability Min="180" Max="188">rainbowSweep</Capability>
-   <Capability Min="189" Max="197">Rainbow</Capability>
-   <Capability Min="198" Max="206">dsnake</Capability>
-   <Capability Min="207" Max="215">RainbowWash</Capability>
-   <Capability Min="216" Max="224">Ripple</Capability>
-   <Capability Min="225" Max="233">sinwave_1</Capability>
-   <Capability Min="234" Max="242">confetti</Capability>
-   <Capability Min="243" Max="251">sinelon</Capability>
-   <Capability Min="252" Max="255">juggle</Capability> 
-</Channel>
- <Channel Name="Palatte">
+  <Capability Min="0" Max="8">auotrun</Capability>
+  <Capability Min="9" Max="17">FunkyPlank</Capability>
+  <Capability Min="18" Max="26">DJLight</Capability>
+  <Capability Min="27" Max="35">EQ</Capability>
+  <Capability Min="36" Max="44">pixels</Capability>
+  <Capability Min="45" Max="53">fillnoise</Capability>
+  <Capability Min="54" Max="62">jugglep</Capability>
+  <Capability Min="63" Max="71">ripple</Capability>
+  <Capability Min="72" Max="80">pixel</Capability>
+  <Capability Min="81" Max="89">matrix</Capability>
+  <Capability Min="90" Max="98">onesine</Capability>
+  <Capability Min="99" Max="107">noisefire</Capability>
+  <Capability Min="108" Max="116">rainbowbit</Capability>
+  <Capability Min="117" Max="125">noisefiretest</Capability>
+  <Capability Min="126" Max="134">rainbowg</Capability>
+  <Capability Min="135" Max="143">noisewide</Capability>
+  <Capability Min="144" Max="152">plasma</Capability>
+  <Capability Min="153" Max="161">besin</Capability>
+  <Capability Min="162" Max="170">noisepal</Capability>
+  <Capability Min="171" Max="179">cylon</Capability>
+  <Capability Min="180" Max="188">rainbowSweep</Capability>
+  <Capability Min="189" Max="197">Rainbow</Capability>
+  <Capability Min="198" Max="206">dsnake</Capability>
+  <Capability Min="207" Max="215">RainbowWash</Capability>
+  <Capability Min="216" Max="224">Ripple</Capability>
+  <Capability Min="225" Max="233">sinwave_1</Capability>
+  <Capability Min="234" Max="242">confetti</Capability>
+  <Capability Min="243" Max="251">sinelon</Capability>
+  <Capability Min="252" Max="255">juggle</Capability>
+ </Channel>
+ <Channel Name="Palette">
   <Group Byte="0">Colour</Group>
-  <Capability Min="0" Max="35">Rainbow</Capability>
-  <Capability Min="36" Max="71">RainStripe</Capability>
-  <Capability Min="72" Max="107">Cloud</Capability>
-  <Capability Min="108" Max="143">Party</Capability>
-  <Capability Min="144" Max="179">Pinks</Capability>
-  <Capability Min="180" Max="215">pinkPurple</Capability>
-  <Capability Min="216" Max="251">GreenBlue</Capability>
+  <Capability Min="0" Max="0">RainbowColors</Capability>
+  <Capability Min="1" Max="1">Audio Responsive Ratio</Capability>
+  <Capability Min="2" Max="2">Audio Responsive Hue</Capability>
+  <Capability Min="3" Max="3">Audio Responsive Ramp</Capability>
+  <Capability Min="4" Max="4">RainbowStripeColors</Capability>
+  <Capability Min="5" Max="5">CloudColors</Capability>
+  <Capability Min="6" Max="6">PartyColors</Capability>
+  <Capability Min="7" Max="7">pinks</Capability>
+  <Capability Min="8" Max="8">pinkPurple</Capability>
+  <Capability Min="9" Max="9">greenBlue</Capability>
+  <Capability Min="10" Max="10">greenBlueYellow</Capability>
+  <Capability Min="11" Max="11">ib_jul01</Capability>
+  <Capability Min="12" Max="12">es_vintage_57</Capability>
+  <Capability Min="13" Max="13">es_vintage_01</Capability>
+  <Capability Min="14" Max="14">es_rivendell_15</Capability>
+  <Capability Min="15" Max="15">rgi_15</Capability>
+  <Capability Min="16" Max="16">retro2_16</Capability>
+  <Capability Min="17" Max="17">Analogous_1</Capability>
+  <Capability Min="18" Max="18">es_pinksplash_08</Capability>
+  <Capability Min="19" Max="19">es_ocean_breeze_036</Capability>
+  <Capability Min="20" Max="20">departure</Capability>
+  <Capability Min="21" Max="21">es_landscape_64</Capability>
+  <Capability Min="22" Max="22">es_landscape_33</Capability>
+  <Capability Min="23" Max="23">rainbowsherbet</Capability>
+  <Capability Min="24" Max="24">gr65_hult</Capability>
+  <Capability Min="25" Max="25">gr64_hult</Capability>
+  <Capability Min="26" Max="26">GMT_drywet</Capability>
+  <Capability Min="27" Max="27">ib15</Capability>
+  <Capability Min="28" Max="28">Tertiary_01</Capability>
+  <Capability Min="29" Max="29">lava</Capability>
+  <Capability Min="30" Max="30">fierce_ice</Capability>
+  <Capability Min="31" Max="31">Colorfull</Capability>
+  <Capability Min="32" Max="32">Pink_Purple</Capability>
+  <Capability Min="33" Max="33">Sunset_Real</Capability>
+  <Capability Min="34" Max="34">Sunset_Yellow</Capability>
+  <Capability Min="35" Max="35">Beech</Capability>
+  <Capability Min="36" Max="36">Another_Sunset</Capability>
+  <Capability Min="37" Max="37">es_autumn_19</Capability>
+  <Capability Min="38" Max="38">BlacK_Blue_Magenta_White</Capability>
+  <Capability Min="39" Max="39">BlacK_Magenta_Red</Capability>
+  <Capability Min="40" Max="40">BlacK_Red_Magenta_Yellow</Capability>
+  <Capability Min="41" Max="41">Blue_Cyan_Yellow</Capability>
+  <Capability Min="42" Max="42">Orange_Teal</Capability>
+  <Capability Min="43" Max="43">Tiamat</Capability>
+  <Capability Min="44" Max="44">April_Night</Capability>
+  <Capability Min="45" Max="45">Orangery</Capability>
+  <Capability Min="46" Max="46">C9</Capability>
+  <Capability Min="47" Max="47">Sakura</Capability>
+  <Capability Min="48" Max="48">Aurora</Capability>
+  <Capability Min="49" Max="49">Atlantica</Capability>
+  <Capability Min="50" Max="50">C9_2</Capability>
+  <Capability Min="51" Max="51">C9_new</Capability>
+  <Capability Min="52" Max="52">temperature</Capability>
+  <Capability Min="53" Max="53">Aurora2</Capability>
+  <Capability Min="54" Max="54">retro_clown</Capability>
+  <Capability Min="55" Max="55">candy</Capability>
+  <Capability Min="56" Max="56">toxy_reaf</Capability>
+  <Capability Min="57" Max="57">fairy_reaf</Capability>
+  <Capability Min="58" Max="58">semi_blue</Capability>
+  <Capability Min="59" Max="59">pink_candy</Capability>
+  <Capability Min="60" Max="60">red_reaf</Capability>
+  <Capability Min="61" Max="61">aqua_flash</Capability>
+  <Capability Min="62" Max="62">yelblu_hot</Capability>
+  <Capability Min="63" Max="63">lite_light</Capability>
+  <Capability Min="64" Max="64">red_flash</Capability>
+  <Capability Min="65" Max="65">blink_red</Capability>
+  <Capability Min="66" Max="66">red_shift</Capability>
+  <Capability Min="67" Max="67">red_tide</Capability>
+  <Capability Min="68" Max="68">candy2</Capability>
  </Channel>
  <Channel Name="Red" Preset="IntensityRed"/>
  <Channel Name="Green" Preset="IntensityGreen"/>
@@ -83,7 +145,7 @@
   <Channel Number="2">Speed</Channel>
   <Channel Number="3">Fade Time</Channel>
   <Channel Number="4">Pattern</Channel>
-  <Channel Number="5">Palatte</Channel>
+  <Channel Number="5">Palette</Channel>
   <Channel Number="6">Red</Channel>
   <Channel Number="7">Green</Channel>
   <Channel Number="8">Blue</Channel>
