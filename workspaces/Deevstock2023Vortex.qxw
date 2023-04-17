@@ -3,23 +3,19 @@
 <Workspace xmlns="http://www.qlcplus.org/Workspace" CurrentWindow="VirtualConsole">
  <Creator>
   <Name>Q Light Controller Plus</Name>
-  <Version>4.12.4</Version>
-  <Author>vortex</Author>
+  <Version>4.12.6</Version>
+  <Author>Will</Author>
  </Creator>
  <Engine>
   <InputOutputMap>
    <Universe Name="Universe 1" ID="0">
-    <Output Plugin="E1.31" Line="3">
-     <PluginParameters UniverseChannels="29"/>
-    </Output>
+    <Output Plugin="E1.31" UID="None" Line="3"/>
    </Universe>
    <Universe Name="Universe 2" ID="1">
-    <Output Plugin="E1.31" Line="3">
-     <PluginParameters UniverseChannels="4"/>
-    </Output>
+    <Output Plugin="E1.31" UID="None" Line="3"/>
    </Universe>
    <Universe Name="Universe 3" ID="2">
-    <Output Plugin="E1.31" Line="6"/>
+    <Output Plugin="E1.31" UID="None" Line="6"/>
    </Universe>
    <Universe Name="Universe 4" ID="3"/>
   </InputOutputMap>
@@ -34,9 +30,9 @@
    <Channels>11</Channels>
   </Fixture>
   <Fixture>
-   <Manufacturer>Generic</Manufacturer>
-   <Model>Generic</Model>
-   <Mode>9 Channel</Mode>
+   <Manufacturer>Will Tatam</Manufacturer>
+   <Model>Trance Jellyfish</Model>
+   <Mode>Default</Mode>
    <ID>1</ID>
    <Name>Trance Jellyfish</Name>
    <Universe>0</Universe>
@@ -51,7 +47,7 @@
    <Name>Mesmeriszer</Name>
    <Universe>1</Universe>
    <Address>0</Address>
-   <Channels>4</Channels>
+   <Channels>5</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Will Tatam</Manufacturer>
@@ -63,6 +59,7 @@
    <Address>0</Address>
    <Channels>6</Channels>
   </Fixture>
+  <ChannelsGroup ID="0" Name="Palette" Value="0">1,5,2,4</ChannelsGroup>
   <Function ID="0" Type="Scene" Name="movers-colour-white">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">5,5</FixtureVal>
@@ -95,14 +92,6 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">5,82</FixtureVal>
   </Function>
-  <Function ID="8" Type="Scene" Name="Colour selection 6+ - Panther 40 Led Spot">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">5,131</FixtureVal>
-  </Function>
-  <Function ID="9" Type="Scene" Name="Colour wheel rotation - Panther 40 Led Spot">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">5,215</FixtureVal>
-  </Function>
   <Function ID="10" Type="Chaser" Name="Colour macros chaser - Panther 40 Led Spot">
    <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
    <Direction>Forward</Direction>
@@ -116,8 +105,6 @@
    <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">5</Step>
    <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">6</Step>
    <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">7</Step>
-   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">8</Step>
-   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">9</Step>
   </Function>
   <Function ID="11" Type="Scene" Name="movers-gobo-bigspotssplat">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -132,9 +119,9 @@
    <FixtureVal ID="0">6,252</FixtureVal>
   </Function>
   <Function ID="14" Type="Chaser" Name="Gobo macros chaser - Panther 40 Led Spot">
-   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="180000"/>
    <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
+   <RunOrder>Random</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
    <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">11</Step>
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">12</Step>
@@ -147,10 +134,6 @@
   <Function ID="16" Type="Scene" Name="movers-locaion-dj-cross-back">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,195,1,188</FixtureVal>
-  </Function>
-  <Function ID="17" Type="Scene" Name="autoRun - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,4</FixtureVal>
   </Function>
   <Function ID="18" Type="Scene" Name="movers-gobo-smallspotssplat">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -264,67 +247,11 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">6,255</FixtureVal>
   </Function>
-  <Function ID="46" Type="Scene" Name="FunkyPlank - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,13</FixtureVal>
-  </Function>
-  <Function ID="47" Type="Scene" Name="DJLight - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,22</FixtureVal>
-  </Function>
-  <Function ID="48" Type="Scene" Name="EQ - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,31</FixtureVal>
-  </Function>
-  <Function ID="49" Type="Scene" Name="pixels - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,40</FixtureVal>
-  </Function>
-  <Function ID="50" Type="Scene" Name="fillnoise - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,49</FixtureVal>
-  </Function>
-  <Function ID="51" Type="Scene" Name="jugglep - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,58</FixtureVal>
-  </Function>
   <Function ID="52" Type="Chaser" Name="Colour macros chaser - Trance Jellyfish">
    <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
-  </Function>
-  <Function ID="53" Type="Scene" Name="Capability 1 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,3</FixtureVal>
-  </Function>
-  <Function ID="54" Type="Scene" Name="Capability 2 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,11</FixtureVal>
-  </Function>
-  <Function ID="55" Type="Scene" Name="Capability 3 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,19</FixtureVal>
-  </Function>
-  <Function ID="56" Type="Scene" Name="Capability 4 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,27</FixtureVal>
-  </Function>
-  <Function ID="57" Type="Scene" Name="Capability 5 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,35</FixtureVal>
-  </Function>
-  <Function ID="58" Type="Scene" Name="Capability 6 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,43</FixtureVal>
-  </Function>
-  <Function ID="59" Type="Scene" Name="Capability 7 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,51</FixtureVal>
-  </Function>
-  <Function ID="60" Type="Scene" Name="Capability 8 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,59</FixtureVal>
   </Function>
   <Function ID="61" Type="Chaser" Name="movers-move-side shimmy">
    <Speed FadeIn="0" FadeOut="0" Duration="15"/>
@@ -337,342 +264,145 @@
    <Step Number="3" FadeIn="0" Hold="3000" FadeOut="0">15</Step>
    <Step Number="4" FadeIn="0" Hold="15000" FadeOut="0">138</Step>
   </Function>
-  <Function ID="62" Type="Scene" Name="Capability 9 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,67</FixtureVal>
-  </Function>
-  <Function ID="63" Type="Scene" Name="Capability 10 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,75</FixtureVal>
-  </Function>
-  <Function ID="64" Type="Scene" Name="Capability 11 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,83</FixtureVal>
-  </Function>
-  <Function ID="65" Type="Scene" Name="Capability 12 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,91</FixtureVal>
-  </Function>
-  <Function ID="66" Type="Scene" Name="Capability 13 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,99</FixtureVal>
-  </Function>
-  <Function ID="67" Type="Scene" Name="Capability 14 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,107</FixtureVal>
-  </Function>
-  <Function ID="68" Type="Scene" Name="Capability 15 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,115</FixtureVal>
-  </Function>
-  <Function ID="69" Type="Scene" Name="Capability 16 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,123</FixtureVal>
-  </Function>
-  <Function ID="70" Type="Scene" Name="Capability 17 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,131</FixtureVal>
-  </Function>
-  <Function ID="71" Type="Scene" Name="Capability 18 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,139</FixtureVal>
-  </Function>
-  <Function ID="72" Type="Scene" Name="Capability 19 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,147</FixtureVal>
-  </Function>
-  <Function ID="73" Type="Scene" Name="ripple - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,67</FixtureVal>
-  </Function>
-  <Function ID="74" Type="Scene" Name="pixel - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,76</FixtureVal>
-  </Function>
-  <Function ID="75" Type="Scene" Name="matrix - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,85</FixtureVal>
-  </Function>
-  <Function ID="76" Type="Scene" Name="onesine - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,94</FixtureVal>
-  </Function>
-  <Function ID="77" Type="Scene" Name="noisefire - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,103</FixtureVal>
-  </Function>
-  <Function ID="78" Type="Scene" Name="rainbowbit - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,112</FixtureVal>
-  </Function>
-  <Function ID="79" Type="Scene" Name="noisefiretest - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,121</FixtureVal>
-  </Function>
-  <Function ID="80" Type="Scene" Name="rainbowg - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,130</FixtureVal>
-  </Function>
-  <Function ID="81" Type="Scene" Name="noisewide - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,139</FixtureVal>
-  </Function>
-  <Function ID="82" Type="Scene" Name="plasma - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,148</FixtureVal>
-  </Function>
-  <Function ID="83" Type="Scene" Name="besin - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,157</FixtureVal>
-  </Function>
-  <Function ID="84" Type="Chaser" Name="Gobo macros chaser - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="90000"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
-  </Function>
-  <Function ID="85" Type="Scene" Name="Capability 20 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,155</FixtureVal>
-  </Function>
-  <Function ID="86" Type="Scene" Name="Capability 21 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,163</FixtureVal>
-  </Function>
-  <Function ID="87" Type="Scene" Name="Capability 22 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,171</FixtureVal>
-  </Function>
-  <Function ID="88" Type="Scene" Name="Capability 23 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,179</FixtureVal>
-  </Function>
-  <Function ID="89" Type="Scene" Name="Capability 24 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,187</FixtureVal>
-  </Function>
-  <Function ID="90" Type="Scene" Name="Capability 25 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,195</FixtureVal>
-  </Function>
-  <Function ID="91" Type="Scene" Name="Capability 26 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,203</FixtureVal>
-  </Function>
-  <Function ID="92" Type="Scene" Name="Capability 27 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,211</FixtureVal>
-  </Function>
-  <Function ID="93" Type="Scene" Name="Capability 28 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,219</FixtureVal>
-  </Function>
-  <Function ID="94" Type="Scene" Name="Capability 29 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,227</FixtureVal>
-  </Function>
-  <Function ID="95" Type="Scene" Name="Capability 30 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,235</FixtureVal>
-  </Function>
-  <Function ID="96" Type="Scene" Name="Capability 31 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,243</FixtureVal>
-  </Function>
-  <Function ID="97" Type="Scene" Name="Capability 32 - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="2">1,251</FixtureVal>
-  </Function>
-  <Function ID="98" Type="Chaser" Name="Gobo macros chaser - Mesmeriszer">
-   <Speed FadeIn="0" FadeOut="0" Duration="89001"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">53</Step>
-   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">54</Step>
-   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">55</Step>
-   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">56</Step>
-   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">57</Step>
-   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">58</Step>
-   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">59</Step>
-   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">60</Step>
-   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">62</Step>
-   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">63</Step>
-   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">64</Step>
-   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">65</Step>
-   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">66</Step>
-   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">67</Step>
-   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">68</Step>
-   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">69</Step>
-   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">70</Step>
-   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">71</Step>
-   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">72</Step>
-   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">85</Step>
-   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">86</Step>
-   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">87</Step>
-   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">88</Step>
-   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">89</Step>
-   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">90</Step>
-   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">91</Step>
-   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">92</Step>
-   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">93</Step>
-   <Step Number="28" FadeIn="0" Hold="0" FadeOut="0">94</Step>
-   <Step Number="29" FadeIn="0" Hold="0" FadeOut="0">95</Step>
-   <Step Number="30" FadeIn="0" Hold="0" FadeOut="0">96</Step>
-   <Step Number="31" FadeIn="0" Hold="0" FadeOut="0">97</Step>
-  </Function>
-  <Function ID="99" Type="Scene" Name="Auto - Clouds">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="3">1,42</FixtureVal>
-  </Function>
   <Function ID="100" Type="Scene" Name="Storm - Clouds">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="3">1,127</FixtureVal>
   </Function>
-  <Function ID="101" Type="Scene" Name="Lightning - Clouds">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="3">1,212</FixtureVal>
-  </Function>
   <Function ID="102" Type="Chaser" Name="Gobo macros chaser - Clouds">
-   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Speed FadeIn="0" FadeOut="0" Duration="120000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">99</Step>
-   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">100</Step>
-   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">101</Step>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">100</Step>
+   <Step Number="1" FadeIn="3000" Hold="7000" FadeOut="0">322</Step>
   </Function>
-  <Function ID="103" Type="Scene" Name="Capability 1 - Mesmeriszer">
+  <Function ID="104" Type="Scene" Name="autoRun - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,3</FixtureVal>
   </Function>
-  <Function ID="104" Type="Scene" Name="Capability 2 - Mesmeriszer">
+  <Function ID="105" Type="Scene" Name="autoRunAudio - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,11</FixtureVal>
   </Function>
-  <Function ID="105" Type="Scene" Name="Capability 3 - Mesmeriszer">
+  <Function ID="106" Type="Scene" Name="showStars - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,19</FixtureVal>
   </Function>
-  <Function ID="106" Type="Scene" Name="Capability 4 - Mesmeriszer">
+  <Function ID="107" Type="Scene" Name="vortex - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,27</FixtureVal>
   </Function>
-  <Function ID="107" Type="Scene" Name="Capability 5 - Mesmeriszer">
+  <Function ID="108" Type="Scene" Name="squares - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,35</FixtureVal>
   </Function>
-  <Function ID="108" Type="Scene" Name="Capability 6 - Mesmeriszer">
+  <Function ID="109" Type="Scene" Name="MirroredNoise - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,43</FixtureVal>
   </Function>
-  <Function ID="109" Type="Scene" Name="Capability 7 - Mesmeriszer">
+  <Function ID="110" Type="Scene" Name="Lavalamp2 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,51</FixtureVal>
   </Function>
-  <Function ID="110" Type="Scene" Name="Capability 8 - Mesmeriszer">
+  <Function ID="111" Type="Scene" Name="Lavalamp3 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,59</FixtureVal>
   </Function>
-  <Function ID="111" Type="Scene" Name="Capability 9 - Mesmeriszer">
+  <Function ID="112" Type="Scene" Name="Lavalamp4 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,67</FixtureVal>
   </Function>
-  <Function ID="112" Type="Scene" Name="Capability 10 - Mesmeriszer">
+  <Function ID="113" Type="Scene" Name="Lavalamp5 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,75</FixtureVal>
   </Function>
-  <Function ID="113" Type="Scene" Name="Capability 11 - Mesmeriszer">
+  <Function ID="114" Type="Scene" Name="Constrained1 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,83</FixtureVal>
   </Function>
-  <Function ID="114" Type="Scene" Name="Capability 12 - Mesmeriszer">
+  <Function ID="115" Type="Scene" Name="RelativeMotion1 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,91</FixtureVal>
   </Function>
-  <Function ID="115" Type="Scene" Name="Capability 13 - Mesmeriszer">
+  <Function ID="116" Type="Scene" Name="Water - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,99</FixtureVal>
   </Function>
-  <Function ID="116" Type="Scene" Name="Capability 14 - Mesmeriszer">
+  <Function ID="117" Type="Scene" Name="TripleMotion - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,107</FixtureVal>
   </Function>
-  <Function ID="117" Type="Scene" Name="Capability 15 - Mesmeriszer">
+  <Function ID="118" Type="Scene" Name="CrossNoise - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,115</FixtureVal>
   </Function>
-  <Function ID="118" Type="Scene" Name="Capability 16 - Mesmeriszer">
+  <Function ID="119" Type="Scene" Name="CrossNoise2 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,123</FixtureVal>
   </Function>
-  <Function ID="119" Type="Scene" Name="Capability 17 - Mesmeriszer">
+  <Function ID="120" Type="Scene" Name="RandomAnimation - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,131</FixtureVal>
   </Function>
-  <Function ID="120" Type="Scene" Name="Capability 18 - Mesmeriszer">
+  <Function ID="121" Type="Scene" Name="MilliTimer - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,139</FixtureVal>
   </Function>
-  <Function ID="121" Type="Scene" Name="Capability 19 - Mesmeriszer">
+  <Function ID="122" Type="Scene" Name="Caleido1 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,147</FixtureVal>
   </Function>
-  <Function ID="122" Type="Scene" Name="Capability 20 - Mesmeriszer">
+  <Function ID="123" Type="Scene" Name="Caleido2 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,155</FixtureVal>
   </Function>
-  <Function ID="123" Type="Scene" Name="Capability 21 - Mesmeriszer">
+  <Function ID="124" Type="Scene" Name="Caleido3 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,163</FixtureVal>
   </Function>
-  <Function ID="124" Type="Scene" Name="Capability 22 - Mesmeriszer">
+  <Function ID="125" Type="Scene" Name="Caleido5 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,171</FixtureVal>
   </Function>
-  <Function ID="125" Type="Scene" Name="Capability 23 - Mesmeriszer">
+  <Function ID="126" Type="Scene" Name="EQ - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,179</FixtureVal>
   </Function>
-  <Function ID="126" Type="Scene" Name="Capability 24 - Mesmeriszer">
+  <Function ID="127" Type="Scene" Name="VU - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,187</FixtureVal>
   </Function>
-  <Function ID="127" Type="Scene" Name="Capability 25 - Mesmeriszer">
+  <Function ID="128" Type="Scene" Name="FunkyPlank - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,195</FixtureVal>
   </Function>
-  <Function ID="128" Type="Scene" Name="Capability 26 - Mesmeriszer">
+  <Function ID="129" Type="Scene" Name="DJLight - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,203</FixtureVal>
   </Function>
-  <Function ID="129" Type="Scene" Name="Capability 27 - Mesmeriszer">
+  <Function ID="130" Type="Scene" Name="MSGEQtest - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,211</FixtureVal>
   </Function>
-  <Function ID="130" Type="Scene" Name="Capability 28 - Mesmeriszer">
+  <Function ID="131" Type="Scene" Name="MSGEQtest2 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,219</FixtureVal>
   </Function>
-  <Function ID="131" Type="Scene" Name="Capability 29 - Mesmeriszer">
+  <Function ID="132" Type="Scene" Name="MSGEQtest4 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,227</FixtureVal>
   </Function>
-  <Function ID="132" Type="Scene" Name="Capability 30 - Mesmeriszer">
+  <Function ID="133" Type="Scene" Name="MSGEQtest7 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,235</FixtureVal>
   </Function>
-  <Function ID="133" Type="Scene" Name="Capability 31 - Mesmeriszer">
+  <Function ID="134" Type="Scene" Name="MSGEQtest8 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,243</FixtureVal>
   </Function>
-  <Function ID="134" Type="Scene" Name="Capability 32 - Mesmeriszer">
+  <Function ID="135" Type="Scene" Name="Audio1 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="2">1,251</FixtureVal>
-  </Function>
-  <Function ID="135" Type="Scene" Name="noisepal - Trance Jellyfish">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,166</FixtureVal>
   </Function>
   <Function ID="136" Type="Scene" Name="movers-location-straight-down">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -715,29 +445,61 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">5,38</FixtureVal>
   </Function>
-  <Function ID="144" Type="Scene" Name="Green - Panther 40 Led Spot">
-   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">5,49</FixtureVal>
+  <Function ID="144" Type="Chaser" Name="Gobo macros chaser - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="120000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="60000" FadeOut="0">106</Step>
+   <Step Number="1" FadeIn="0" Hold="60000" FadeOut="0">107</Step>
+   <Step Number="2" FadeIn="0" Hold="60000" FadeOut="0">108</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">109</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">110</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">111</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">112</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">113</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">114</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">115</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">116</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">117</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">118</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">119</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">120</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">121</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">122</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">123</Step>
+   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">124</Step>
+   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">125</Step>
+   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">126</Step>
+   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">127</Step>
+   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">128</Step>
+   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">129</Step>
+   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">130</Step>
+   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">131</Step>
+   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">132</Step>
+   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">133</Step>
+   <Step Number="28" FadeIn="0" Hold="0" FadeOut="0">134</Step>
+   <Step Number="29" FadeIn="0" Hold="0" FadeOut="0">135</Step>
   </Function>
-  <Function ID="145" Type="Scene" Name="Blue - Panther 40 Led Spot">
+  <Function ID="145" Type="Scene" Name="RainbowColors - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">5,60</FixtureVal>
+   <FixtureVal ID="2">4,0</FixtureVal>
   </Function>
-  <Function ID="146" Type="Scene" Name="Cyan - Panther 40 Led Spot">
+  <Function ID="146" Type="Scene" Name="Audio Responsive Ratio - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">5,71</FixtureVal>
+   <FixtureVal ID="2">4,1</FixtureVal>
   </Function>
-  <Function ID="147" Type="Scene" Name="Purple - Panther 40 Led Spot">
+  <Function ID="147" Type="Scene" Name="Audio Responsive Hue - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">5,82</FixtureVal>
+   <FixtureVal ID="2">4,2</FixtureVal>
   </Function>
-  <Function ID="148" Type="Scene" Name="Colour selection 6+ - Panther 40 Led Spot">
+  <Function ID="148" Type="Scene" Name="Audio Responsive Ramp - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">5,131</FixtureVal>
+   <FixtureVal ID="2">4,3</FixtureVal>
   </Function>
-  <Function ID="149" Type="Scene" Name="Colour wheel rotation - Panther 40 Led Spot">
+  <Function ID="149" Type="Scene" Name="RainbowStripeColors - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="0">5,215</FixtureVal>
+   <FixtureVal ID="2">4,4</FixtureVal>
   </Function>
   <Function ID="150" Type="Chaser" Name="Colour macros chaser - Panther 40 Led Spot">
    <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
@@ -748,136 +510,865 @@
    <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">141</Step>
    <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">142</Step>
    <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">143</Step>
-   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">144</Step>
-   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">145</Step>
-   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">146</Step>
-   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">147</Step>
-   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">148</Step>
-   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">149</Step>
   </Function>
   <Function ID="151" Type="Scene" Name="movers-location-light-the-dj">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,134,1,56,7,54</FixtureVal>
   </Function>
-  <Function ID="152" Type="Scene" Name="cylon - Trance Jellyfish">
+  <Function ID="152" Type="Scene" Name="CloudColors - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,175</FixtureVal>
+   <FixtureVal ID="2">4,5</FixtureVal>
   </Function>
-  <Function ID="153" Type="Scene" Name="rainbowSweep - Trance Jellyfish">
+  <Function ID="153" Type="Scene" Name="PartyColors - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,184</FixtureVal>
+   <FixtureVal ID="2">4,6</FixtureVal>
   </Function>
-  <Function ID="154" Type="Scene" Name="Rainbow - Trance Jellyfish">
+  <Function ID="154" Type="Scene" Name="pinks - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,193</FixtureVal>
+   <FixtureVal ID="2">4,7</FixtureVal>
   </Function>
-  <Function ID="155" Type="Scene" Name="dsnake - Trance Jellyfish">
+  <Function ID="155" Type="Scene" Name="pinkPurple - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,202</FixtureVal>
+   <FixtureVal ID="2">4,8</FixtureVal>
   </Function>
-  <Function ID="156" Type="Scene" Name="RainbowWash - Trance Jellyfish">
+  <Function ID="156" Type="Scene" Name="greenBlue - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,211</FixtureVal>
+   <FixtureVal ID="2">4,9</FixtureVal>
   </Function>
-  <Function ID="157" Type="Scene" Name="Ripple - Trance Jellyfish">
+  <Function ID="157" Type="Scene" Name="greenBlueYellow - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,220</FixtureVal>
+   <FixtureVal ID="2">4,10</FixtureVal>
   </Function>
-  <Function ID="158" Type="Scene" Name="sinwave_1 - Trance Jellyfish">
+  <Function ID="158" Type="Scene" Name="ib_jul01 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,229</FixtureVal>
+   <FixtureVal ID="2">4,11</FixtureVal>
   </Function>
-  <Function ID="159" Type="Scene" Name="confetti - Trance Jellyfish">
+  <Function ID="159" Type="Scene" Name="es_vintage_57 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,238</FixtureVal>
+   <FixtureVal ID="2">4,12</FixtureVal>
   </Function>
-  <Function ID="160" Type="Scene" Name="sinelon - Trance Jellyfish">
+  <Function ID="160" Type="Scene" Name="es_vintage_01 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,247</FixtureVal>
+   <FixtureVal ID="2">4,13</FixtureVal>
   </Function>
-  <Function ID="161" Type="Scene" Name="juggle - Trance Jellyfish">
+  <Function ID="161" Type="Scene" Name="es_rivendell_15 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">4,253</FixtureVal>
+   <FixtureVal ID="2">4,14</FixtureVal>
   </Function>
-  <Function ID="162" Type="Chaser" Name="Gobo macros chaser - Trance Jellyfish">
-   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
-   <Direction>Forward</Direction>
-   <RunOrder>Loop</RunOrder>
-   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">17</Step>
-   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">46</Step>
-   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">47</Step>
-   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">48</Step>
-   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">49</Step>
-   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">50</Step>
-   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">51</Step>
-   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">73</Step>
-   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">74</Step>
-   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">75</Step>
-   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">76</Step>
-   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">77</Step>
-   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">78</Step>
-   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">79</Step>
-   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">80</Step>
-   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">81</Step>
-   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">82</Step>
-   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">83</Step>
-   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">135</Step>
-   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">152</Step>
-   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">153</Step>
-   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">154</Step>
-   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">155</Step>
-   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">156</Step>
-   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">157</Step>
-   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">158</Step>
-   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">159</Step>
-   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">160</Step>
-   <Step Number="28" FadeIn="0" Hold="0" FadeOut="0">161</Step>
-  </Function>
-  <Function ID="163" Type="Scene" Name="Rainbow - Trance Jellyfish">
+  <Function ID="163" Type="Scene" Name="rgi_15 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">5,17</FixtureVal>
+   <FixtureVal ID="2">4,15</FixtureVal>
   </Function>
-  <Function ID="164" Type="Scene" Name="RainStripe - Trance Jellyfish">
+  <Function ID="164" Type="Scene" Name="retro2_16 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">5,53</FixtureVal>
+   <FixtureVal ID="2">4,16</FixtureVal>
   </Function>
-  <Function ID="165" Type="Scene" Name="Cloud - Trance Jellyfish">
+  <Function ID="165" Type="Scene" Name="Analogous_1 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">5,89</FixtureVal>
+   <FixtureVal ID="2">4,17</FixtureVal>
   </Function>
-  <Function ID="166" Type="Scene" Name="Party - Trance Jellyfish">
+  <Function ID="166" Type="Scene" Name="es_pinksplash_08 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">5,125</FixtureVal>
+   <FixtureVal ID="2">4,18</FixtureVal>
   </Function>
-  <Function ID="167" Type="Scene" Name="Pinks - Trance Jellyfish">
+  <Function ID="167" Type="Scene" Name="es_ocean_breeze_036 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">5,161</FixtureVal>
+   <FixtureVal ID="2">4,19</FixtureVal>
   </Function>
-  <Function ID="168" Type="Scene" Name="pinkPurple - Trance Jellyfish">
+  <Function ID="168" Type="Scene" Name="departure - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">5,197</FixtureVal>
+   <FixtureVal ID="2">4,20</FixtureVal>
   </Function>
-  <Function ID="169" Type="Scene" Name="GreenBlue - Trance Jellyfish">
+  <Function ID="169" Type="Scene" Name="es_landscape_64 - Mesmeriszer">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
-   <FixtureVal ID="1">5,233</FixtureVal>
+   <FixtureVal ID="2">4,21</FixtureVal>
   </Function>
   <Function ID="170" Type="Chaser" Name="Colour macros chaser - Trance Jellyfish">
    <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
    <Direction>Forward</Direction>
    <RunOrder>Loop</RunOrder>
    <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
-   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">163</Step>
-   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">164</Step>
-   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">165</Step>
-   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">166</Step>
-   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">167</Step>
-   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">168</Step>
-   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">169</Step>
   </Function>
   <Function ID="171" Type="Scene" Name="Whoosh">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="1">1,38,2,245,3,227,4,183</FixtureVal>
+  </Function>
+  <Function ID="172" Type="Scene" Name="es_landscape_33 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,22</FixtureVal>
+  </Function>
+  <Function ID="173" Type="Scene" Name="rainbowsherbet - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,23</FixtureVal>
+  </Function>
+  <Function ID="174" Type="Scene" Name="gr65_hult - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,24</FixtureVal>
+  </Function>
+  <Function ID="175" Type="Scene" Name="gr64_hult - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,25</FixtureVal>
+  </Function>
+  <Function ID="176" Type="Scene" Name="GMT_drywet - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,26</FixtureVal>
+  </Function>
+  <Function ID="177" Type="Scene" Name="ib15 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,27</FixtureVal>
+  </Function>
+  <Function ID="178" Type="Scene" Name="Tertiary_01 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,28</FixtureVal>
+  </Function>
+  <Function ID="179" Type="Scene" Name="lava - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,29</FixtureVal>
+  </Function>
+  <Function ID="180" Type="Scene" Name="fierce_ice - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,30</FixtureVal>
+  </Function>
+  <Function ID="181" Type="Scene" Name="Colorfull - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,31</FixtureVal>
+  </Function>
+  <Function ID="182" Type="Scene" Name="Pink_Purple - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,32</FixtureVal>
+  </Function>
+  <Function ID="183" Type="Scene" Name="Sunset_Real - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,33</FixtureVal>
+  </Function>
+  <Function ID="184" Type="Scene" Name="Sunset_Yellow - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,34</FixtureVal>
+  </Function>
+  <Function ID="185" Type="Scene" Name="Beech - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,35</FixtureVal>
+  </Function>
+  <Function ID="186" Type="Scene" Name="Another_Sunset - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,36</FixtureVal>
+  </Function>
+  <Function ID="187" Type="Scene" Name="es_autumn_19 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,37</FixtureVal>
+  </Function>
+  <Function ID="188" Type="Scene" Name="BlacK_Blue_Magenta_White - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,38</FixtureVal>
+  </Function>
+  <Function ID="189" Type="Scene" Name="BlacK_Magenta_Red - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,39</FixtureVal>
+  </Function>
+  <Function ID="190" Type="Scene" Name="BlacK_Red_Magenta_Yellow - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,40</FixtureVal>
+  </Function>
+  <Function ID="191" Type="Scene" Name="Blue_Cyan_Yellow - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,41</FixtureVal>
+  </Function>
+  <Function ID="192" Type="Scene" Name="Orange_Teal - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,42</FixtureVal>
+  </Function>
+  <Function ID="193" Type="Scene" Name="Tiamat - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,43</FixtureVal>
+  </Function>
+  <Function ID="194" Type="Scene" Name="April_Night - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,44</FixtureVal>
+  </Function>
+  <Function ID="195" Type="Scene" Name="Orangery - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,45</FixtureVal>
+  </Function>
+  <Function ID="196" Type="Scene" Name="C9 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,46</FixtureVal>
+  </Function>
+  <Function ID="197" Type="Scene" Name="Sakura - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,47</FixtureVal>
+  </Function>
+  <Function ID="198" Type="Scene" Name="Aurora - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,48</FixtureVal>
+  </Function>
+  <Function ID="199" Type="Scene" Name="Atlantica - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,49</FixtureVal>
+  </Function>
+  <Function ID="200" Type="Scene" Name="C9_2 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,50</FixtureVal>
+  </Function>
+  <Function ID="201" Type="Scene" Name="C9_new - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,51</FixtureVal>
+  </Function>
+  <Function ID="202" Type="Scene" Name="temperature - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,52</FixtureVal>
+  </Function>
+  <Function ID="203" Type="Scene" Name="Aurora2 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,53</FixtureVal>
+  </Function>
+  <Function ID="204" Type="Scene" Name="retro_clown - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,54</FixtureVal>
+  </Function>
+  <Function ID="205" Type="Scene" Name="candy - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,55</FixtureVal>
+  </Function>
+  <Function ID="206" Type="Scene" Name="toxy_reaf - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,56</FixtureVal>
+  </Function>
+  <Function ID="207" Type="Scene" Name="fairy_reaf - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,57</FixtureVal>
+  </Function>
+  <Function ID="208" Type="Scene" Name="semi_blue - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,58</FixtureVal>
+  </Function>
+  <Function ID="209" Type="Scene" Name="pink_candy - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,59</FixtureVal>
+  </Function>
+  <Function ID="210" Type="Scene" Name="red_reaf - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,60</FixtureVal>
+  </Function>
+  <Function ID="211" Type="Scene" Name="aqua_flash - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,61</FixtureVal>
+  </Function>
+  <Function ID="212" Type="Scene" Name="yelblu_hot - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,62</FixtureVal>
+  </Function>
+  <Function ID="213" Type="Scene" Name="lite_light - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,63</FixtureVal>
+  </Function>
+  <Function ID="214" Type="Scene" Name="red_flash - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,64</FixtureVal>
+  </Function>
+  <Function ID="215" Type="Scene" Name="blink_red - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,65</FixtureVal>
+  </Function>
+  <Function ID="216" Type="Scene" Name="red_shift - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,66</FixtureVal>
+  </Function>
+  <Function ID="217" Type="Scene" Name="red_tide - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,67</FixtureVal>
+  </Function>
+  <Function ID="218" Type="Scene" Name="candy2 - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="2">4,68</FixtureVal>
+  </Function>
+  <Function ID="219" Type="Chaser" Name="Colour macros chaser - Mesmeriszer">
+   <Speed FadeIn="0" FadeOut="0" Duration="120000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Random</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">145</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">146</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">147</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">148</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">149</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">152</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">153</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">154</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">155</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">156</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">157</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">158</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">159</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">160</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">161</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">163</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">164</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">165</Step>
+   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">166</Step>
+   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">167</Step>
+   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">168</Step>
+   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">169</Step>
+   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">172</Step>
+   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">173</Step>
+   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">174</Step>
+   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">175</Step>
+   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">176</Step>
+   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">177</Step>
+   <Step Number="28" FadeIn="0" Hold="0" FadeOut="0">178</Step>
+   <Step Number="29" FadeIn="0" Hold="0" FadeOut="0">179</Step>
+   <Step Number="30" FadeIn="0" Hold="0" FadeOut="0">180</Step>
+   <Step Number="31" FadeIn="0" Hold="0" FadeOut="0">181</Step>
+   <Step Number="32" FadeIn="0" Hold="0" FadeOut="0">182</Step>
+   <Step Number="33" FadeIn="0" Hold="0" FadeOut="0">183</Step>
+   <Step Number="34" FadeIn="0" Hold="0" FadeOut="0">184</Step>
+   <Step Number="35" FadeIn="0" Hold="0" FadeOut="0">185</Step>
+   <Step Number="36" FadeIn="0" Hold="0" FadeOut="0">186</Step>
+   <Step Number="37" FadeIn="0" Hold="0" FadeOut="0">187</Step>
+   <Step Number="38" FadeIn="0" Hold="0" FadeOut="0">188</Step>
+   <Step Number="39" FadeIn="0" Hold="0" FadeOut="0">189</Step>
+   <Step Number="40" FadeIn="0" Hold="0" FadeOut="0">190</Step>
+   <Step Number="41" FadeIn="0" Hold="0" FadeOut="0">191</Step>
+   <Step Number="42" FadeIn="0" Hold="0" FadeOut="0">192</Step>
+   <Step Number="43" FadeIn="0" Hold="0" FadeOut="0">193</Step>
+   <Step Number="44" FadeIn="0" Hold="0" FadeOut="0">194</Step>
+   <Step Number="45" FadeIn="0" Hold="0" FadeOut="0">195</Step>
+   <Step Number="46" FadeIn="0" Hold="0" FadeOut="0">196</Step>
+   <Step Number="47" FadeIn="0" Hold="0" FadeOut="0">197</Step>
+   <Step Number="48" FadeIn="0" Hold="0" FadeOut="0">198</Step>
+   <Step Number="49" FadeIn="0" Hold="0" FadeOut="0">199</Step>
+   <Step Number="50" FadeIn="0" Hold="0" FadeOut="0">200</Step>
+   <Step Number="51" FadeIn="0" Hold="0" FadeOut="0">201</Step>
+   <Step Number="52" FadeIn="0" Hold="0" FadeOut="0">202</Step>
+   <Step Number="53" FadeIn="0" Hold="0" FadeOut="0">203</Step>
+   <Step Number="54" FadeIn="0" Hold="0" FadeOut="0">204</Step>
+   <Step Number="55" FadeIn="0" Hold="0" FadeOut="0">205</Step>
+   <Step Number="56" FadeIn="0" Hold="0" FadeOut="0">206</Step>
+   <Step Number="57" FadeIn="0" Hold="0" FadeOut="0">207</Step>
+   <Step Number="58" FadeIn="0" Hold="0" FadeOut="0">208</Step>
+   <Step Number="59" FadeIn="0" Hold="0" FadeOut="0">209</Step>
+   <Step Number="60" FadeIn="0" Hold="0" FadeOut="0">210</Step>
+   <Step Number="61" FadeIn="0" Hold="0" FadeOut="0">211</Step>
+   <Step Number="62" FadeIn="0" Hold="0" FadeOut="0">212</Step>
+   <Step Number="63" FadeIn="0" Hold="0" FadeOut="0">213</Step>
+   <Step Number="64" FadeIn="0" Hold="0" FadeOut="0">214</Step>
+   <Step Number="65" FadeIn="0" Hold="0" FadeOut="0">215</Step>
+   <Step Number="66" FadeIn="0" Hold="0" FadeOut="0">216</Step>
+   <Step Number="67" FadeIn="0" Hold="0" FadeOut="0">217</Step>
+   <Step Number="68" FadeIn="0" Hold="0" FadeOut="0">218</Step>
+  </Function>
+  <Function ID="220" Type="Scene" Name="auotrun - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,4</FixtureVal>
+  </Function>
+  <Function ID="221" Type="Scene" Name="FunkyPlank - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,13</FixtureVal>
+  </Function>
+  <Function ID="222" Type="Scene" Name="DJLight - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,22</FixtureVal>
+  </Function>
+  <Function ID="223" Type="Scene" Name="EQ - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,31</FixtureVal>
+  </Function>
+  <Function ID="224" Type="Scene" Name="pixels - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,40</FixtureVal>
+  </Function>
+  <Function ID="225" Type="Scene" Name="fillnoise - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,49</FixtureVal>
+  </Function>
+  <Function ID="226" Type="Scene" Name="jugglep - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,58</FixtureVal>
+  </Function>
+  <Function ID="227" Type="Scene" Name="ripple - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,67</FixtureVal>
+  </Function>
+  <Function ID="228" Type="Scene" Name="pixel - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,76</FixtureVal>
+  </Function>
+  <Function ID="229" Type="Scene" Name="matrix - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,85</FixtureVal>
+  </Function>
+  <Function ID="230" Type="Scene" Name="onesine - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,94</FixtureVal>
+  </Function>
+  <Function ID="231" Type="Scene" Name="noisefire - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,103</FixtureVal>
+  </Function>
+  <Function ID="232" Type="Scene" Name="rainbowbit - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,112</FixtureVal>
+  </Function>
+  <Function ID="233" Type="Scene" Name="noisefiretest - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,121</FixtureVal>
+  </Function>
+  <Function ID="234" Type="Scene" Name="rainbowg - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,130</FixtureVal>
+  </Function>
+  <Function ID="235" Type="Scene" Name="noisewide - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,139</FixtureVal>
+  </Function>
+  <Function ID="236" Type="Scene" Name="plasma - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,148</FixtureVal>
+  </Function>
+  <Function ID="237" Type="Scene" Name="besin - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,157</FixtureVal>
+  </Function>
+  <Function ID="238" Type="Scene" Name="noisepal - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,166</FixtureVal>
+  </Function>
+  <Function ID="239" Type="Scene" Name="cylon - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,175</FixtureVal>
+  </Function>
+  <Function ID="240" Type="Scene" Name="rainbowSweep - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,184</FixtureVal>
+  </Function>
+  <Function ID="241" Type="Scene" Name="Rainbow - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,193</FixtureVal>
+  </Function>
+  <Function ID="242" Type="Scene" Name="dsnake - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,202</FixtureVal>
+  </Function>
+  <Function ID="243" Type="Scene" Name="RainbowWash - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,211</FixtureVal>
+  </Function>
+  <Function ID="244" Type="Scene" Name="Ripple - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,220</FixtureVal>
+  </Function>
+  <Function ID="245" Type="Scene" Name="sinwave_1 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,229</FixtureVal>
+  </Function>
+  <Function ID="246" Type="Scene" Name="confetti - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,238</FixtureVal>
+  </Function>
+  <Function ID="247" Type="Scene" Name="sinelon - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,247</FixtureVal>
+  </Function>
+  <Function ID="248" Type="Scene" Name="juggle - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">4,253</FixtureVal>
+  </Function>
+  <Function ID="249" Type="Chaser" Name="Gobo macros chaser - Trance Jellyfish">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">220</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">221</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">222</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">223</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">224</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">225</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">226</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">227</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">228</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">229</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">230</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">231</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">232</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">233</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">234</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">235</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">236</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">237</Step>
+   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">238</Step>
+   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">239</Step>
+   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">240</Step>
+   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">241</Step>
+   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">242</Step>
+   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">243</Step>
+   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">244</Step>
+   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">245</Step>
+   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">246</Step>
+   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">247</Step>
+   <Step Number="28" FadeIn="0" Hold="0" FadeOut="0">248</Step>
+  </Function>
+  <Function ID="250" Type="Scene" Name="RainbowColors - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,0</FixtureVal>
+  </Function>
+  <Function ID="251" Type="Scene" Name="Audio Responsive Ratio - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,1</FixtureVal>
+  </Function>
+  <Function ID="252" Type="Scene" Name="Audio Responsive Hue - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,2</FixtureVal>
+  </Function>
+  <Function ID="253" Type="Scene" Name="Audio Responsive Ramp - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,3</FixtureVal>
+  </Function>
+  <Function ID="254" Type="Scene" Name="RainbowStripeColors - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,4</FixtureVal>
+  </Function>
+  <Function ID="255" Type="Scene" Name="CloudColors - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,5</FixtureVal>
+  </Function>
+  <Function ID="256" Type="Scene" Name="PartyColors - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,6</FixtureVal>
+  </Function>
+  <Function ID="257" Type="Scene" Name="pinks - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,7</FixtureVal>
+  </Function>
+  <Function ID="258" Type="Scene" Name="pinkPurple - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,8</FixtureVal>
+  </Function>
+  <Function ID="259" Type="Scene" Name="greenBlue - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,9</FixtureVal>
+  </Function>
+  <Function ID="260" Type="Scene" Name="greenBlueYellow - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,10</FixtureVal>
+  </Function>
+  <Function ID="261" Type="Scene" Name="ib_jul01 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,11</FixtureVal>
+  </Function>
+  <Function ID="262" Type="Scene" Name="es_vintage_57 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,12</FixtureVal>
+  </Function>
+  <Function ID="263" Type="Scene" Name="es_vintage_01 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,13</FixtureVal>
+  </Function>
+  <Function ID="264" Type="Scene" Name="es_rivendell_15 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,14</FixtureVal>
+  </Function>
+  <Function ID="265" Type="Scene" Name="rgi_15 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,15</FixtureVal>
+  </Function>
+  <Function ID="266" Type="Scene" Name="retro2_16 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,16</FixtureVal>
+  </Function>
+  <Function ID="267" Type="Scene" Name="Analogous_1 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,17</FixtureVal>
+  </Function>
+  <Function ID="268" Type="Scene" Name="es_pinksplash_08 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,18</FixtureVal>
+  </Function>
+  <Function ID="269" Type="Scene" Name="es_ocean_breeze_036 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,19</FixtureVal>
+  </Function>
+  <Function ID="270" Type="Scene" Name="departure - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,20</FixtureVal>
+  </Function>
+  <Function ID="271" Type="Scene" Name="es_landscape_64 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,21</FixtureVal>
+  </Function>
+  <Function ID="272" Type="Scene" Name="es_landscape_33 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,22</FixtureVal>
+  </Function>
+  <Function ID="273" Type="Scene" Name="rainbowsherbet - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,23</FixtureVal>
+  </Function>
+  <Function ID="274" Type="Scene" Name="gr65_hult - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,24</FixtureVal>
+  </Function>
+  <Function ID="275" Type="Scene" Name="gr64_hult - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,25</FixtureVal>
+  </Function>
+  <Function ID="276" Type="Scene" Name="GMT_drywet - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,26</FixtureVal>
+  </Function>
+  <Function ID="277" Type="Scene" Name="ib15 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,27</FixtureVal>
+  </Function>
+  <Function ID="278" Type="Scene" Name="Tertiary_01 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,28</FixtureVal>
+  </Function>
+  <Function ID="279" Type="Scene" Name="lava - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,29</FixtureVal>
+  </Function>
+  <Function ID="280" Type="Scene" Name="fierce_ice - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,30</FixtureVal>
+  </Function>
+  <Function ID="281" Type="Scene" Name="Colorfull - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,31</FixtureVal>
+  </Function>
+  <Function ID="282" Type="Scene" Name="Pink_Purple - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,32</FixtureVal>
+  </Function>
+  <Function ID="283" Type="Scene" Name="Sunset_Real - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,33</FixtureVal>
+  </Function>
+  <Function ID="284" Type="Scene" Name="Sunset_Yellow - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,34</FixtureVal>
+  </Function>
+  <Function ID="285" Type="Scene" Name="Beech - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,35</FixtureVal>
+  </Function>
+  <Function ID="286" Type="Scene" Name="Another_Sunset - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,36</FixtureVal>
+  </Function>
+  <Function ID="287" Type="Scene" Name="es_autumn_19 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,37</FixtureVal>
+  </Function>
+  <Function ID="288" Type="Scene" Name="BlacK_Blue_Magenta_White - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,38</FixtureVal>
+  </Function>
+  <Function ID="289" Type="Scene" Name="BlacK_Magenta_Red - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,39</FixtureVal>
+  </Function>
+  <Function ID="290" Type="Scene" Name="BlacK_Red_Magenta_Yellow - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,40</FixtureVal>
+  </Function>
+  <Function ID="291" Type="Scene" Name="Blue_Cyan_Yellow - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,41</FixtureVal>
+  </Function>
+  <Function ID="292" Type="Scene" Name="Orange_Teal - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,42</FixtureVal>
+  </Function>
+  <Function ID="293" Type="Scene" Name="Tiamat - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,43</FixtureVal>
+  </Function>
+  <Function ID="294" Type="Scene" Name="April_Night - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,44</FixtureVal>
+  </Function>
+  <Function ID="295" Type="Scene" Name="Orangery - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,45</FixtureVal>
+  </Function>
+  <Function ID="296" Type="Scene" Name="C9 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,46</FixtureVal>
+  </Function>
+  <Function ID="297" Type="Scene" Name="Sakura - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,47</FixtureVal>
+  </Function>
+  <Function ID="298" Type="Scene" Name="Aurora - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,48</FixtureVal>
+  </Function>
+  <Function ID="299" Type="Scene" Name="Atlantica - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,49</FixtureVal>
+  </Function>
+  <Function ID="300" Type="Scene" Name="C9_2 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,50</FixtureVal>
+  </Function>
+  <Function ID="301" Type="Scene" Name="C9_new - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,51</FixtureVal>
+  </Function>
+  <Function ID="302" Type="Scene" Name="temperature - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,52</FixtureVal>
+  </Function>
+  <Function ID="303" Type="Scene" Name="Aurora2 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,53</FixtureVal>
+  </Function>
+  <Function ID="304" Type="Scene" Name="retro_clown - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,54</FixtureVal>
+  </Function>
+  <Function ID="305" Type="Scene" Name="candy - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,55</FixtureVal>
+  </Function>
+  <Function ID="306" Type="Scene" Name="toxy_reaf - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,56</FixtureVal>
+  </Function>
+  <Function ID="307" Type="Scene" Name="fairy_reaf - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,57</FixtureVal>
+  </Function>
+  <Function ID="308" Type="Scene" Name="semi_blue - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,58</FixtureVal>
+  </Function>
+  <Function ID="309" Type="Scene" Name="pink_candy - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,59</FixtureVal>
+  </Function>
+  <Function ID="310" Type="Scene" Name="red_reaf - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,60</FixtureVal>
+  </Function>
+  <Function ID="311" Type="Scene" Name="aqua_flash - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,61</FixtureVal>
+  </Function>
+  <Function ID="312" Type="Scene" Name="yelblu_hot - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,62</FixtureVal>
+  </Function>
+  <Function ID="313" Type="Scene" Name="lite_light - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,63</FixtureVal>
+  </Function>
+  <Function ID="314" Type="Scene" Name="red_flash - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,64</FixtureVal>
+  </Function>
+  <Function ID="315" Type="Scene" Name="blink_red - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,65</FixtureVal>
+  </Function>
+  <Function ID="316" Type="Scene" Name="red_shift - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,66</FixtureVal>
+  </Function>
+  <Function ID="317" Type="Scene" Name="red_tide - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,67</FixtureVal>
+  </Function>
+  <Function ID="318" Type="Scene" Name="candy2 - Trance Jellyfish">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">5,68</FixtureVal>
+  </Function>
+  <Function ID="319" Type="Chaser" Name="Colour macros chaser - Trance Jellyfish">
+   <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
+   <Direction>Forward</Direction>
+   <RunOrder>Loop</RunOrder>
+   <SpeedModes FadeIn="Common" FadeOut="Common" Duration="Common"/>
+   <Step Number="0" FadeIn="0" Hold="0" FadeOut="0">250</Step>
+   <Step Number="1" FadeIn="0" Hold="0" FadeOut="0">251</Step>
+   <Step Number="2" FadeIn="0" Hold="0" FadeOut="0">252</Step>
+   <Step Number="3" FadeIn="0" Hold="0" FadeOut="0">253</Step>
+   <Step Number="4" FadeIn="0" Hold="0" FadeOut="0">254</Step>
+   <Step Number="5" FadeIn="0" Hold="0" FadeOut="0">255</Step>
+   <Step Number="6" FadeIn="0" Hold="0" FadeOut="0">256</Step>
+   <Step Number="7" FadeIn="0" Hold="0" FadeOut="0">257</Step>
+   <Step Number="8" FadeIn="0" Hold="0" FadeOut="0">258</Step>
+   <Step Number="9" FadeIn="0" Hold="0" FadeOut="0">259</Step>
+   <Step Number="10" FadeIn="0" Hold="0" FadeOut="0">260</Step>
+   <Step Number="11" FadeIn="0" Hold="0" FadeOut="0">261</Step>
+   <Step Number="12" FadeIn="0" Hold="0" FadeOut="0">262</Step>
+   <Step Number="13" FadeIn="0" Hold="0" FadeOut="0">263</Step>
+   <Step Number="14" FadeIn="0" Hold="0" FadeOut="0">264</Step>
+   <Step Number="15" FadeIn="0" Hold="0" FadeOut="0">265</Step>
+   <Step Number="16" FadeIn="0" Hold="0" FadeOut="0">266</Step>
+   <Step Number="17" FadeIn="0" Hold="0" FadeOut="0">267</Step>
+   <Step Number="18" FadeIn="0" Hold="0" FadeOut="0">268</Step>
+   <Step Number="19" FadeIn="0" Hold="0" FadeOut="0">269</Step>
+   <Step Number="20" FadeIn="0" Hold="0" FadeOut="0">270</Step>
+   <Step Number="21" FadeIn="0" Hold="0" FadeOut="0">271</Step>
+   <Step Number="22" FadeIn="0" Hold="0" FadeOut="0">272</Step>
+   <Step Number="23" FadeIn="0" Hold="0" FadeOut="0">273</Step>
+   <Step Number="24" FadeIn="0" Hold="0" FadeOut="0">274</Step>
+   <Step Number="25" FadeIn="0" Hold="0" FadeOut="0">275</Step>
+   <Step Number="26" FadeIn="0" Hold="0" FadeOut="0">276</Step>
+   <Step Number="27" FadeIn="0" Hold="0" FadeOut="0">277</Step>
+   <Step Number="28" FadeIn="0" Hold="0" FadeOut="0">278</Step>
+   <Step Number="29" FadeIn="0" Hold="0" FadeOut="0">279</Step>
+   <Step Number="30" FadeIn="0" Hold="0" FadeOut="0">280</Step>
+   <Step Number="31" FadeIn="0" Hold="0" FadeOut="0">281</Step>
+   <Step Number="32" FadeIn="0" Hold="0" FadeOut="0">282</Step>
+   <Step Number="33" FadeIn="0" Hold="0" FadeOut="0">283</Step>
+   <Step Number="34" FadeIn="0" Hold="0" FadeOut="0">284</Step>
+   <Step Number="35" FadeIn="0" Hold="0" FadeOut="0">285</Step>
+   <Step Number="36" FadeIn="0" Hold="0" FadeOut="0">286</Step>
+   <Step Number="37" FadeIn="0" Hold="0" FadeOut="0">287</Step>
+   <Step Number="38" FadeIn="0" Hold="0" FadeOut="0">288</Step>
+   <Step Number="39" FadeIn="0" Hold="0" FadeOut="0">289</Step>
+   <Step Number="40" FadeIn="0" Hold="0" FadeOut="0">290</Step>
+   <Step Number="41" FadeIn="0" Hold="0" FadeOut="0">291</Step>
+   <Step Number="42" FadeIn="0" Hold="0" FadeOut="0">292</Step>
+   <Step Number="43" FadeIn="0" Hold="0" FadeOut="0">293</Step>
+   <Step Number="44" FadeIn="0" Hold="0" FadeOut="0">294</Step>
+   <Step Number="45" FadeIn="0" Hold="0" FadeOut="0">295</Step>
+   <Step Number="46" FadeIn="0" Hold="0" FadeOut="0">296</Step>
+   <Step Number="47" FadeIn="0" Hold="0" FadeOut="0">297</Step>
+   <Step Number="48" FadeIn="0" Hold="0" FadeOut="0">298</Step>
+   <Step Number="49" FadeIn="0" Hold="0" FadeOut="0">299</Step>
+   <Step Number="50" FadeIn="0" Hold="0" FadeOut="0">300</Step>
+   <Step Number="51" FadeIn="0" Hold="0" FadeOut="0">301</Step>
+   <Step Number="52" FadeIn="0" Hold="0" FadeOut="0">302</Step>
+   <Step Number="53" FadeIn="0" Hold="0" FadeOut="0">303</Step>
+   <Step Number="54" FadeIn="0" Hold="0" FadeOut="0">304</Step>
+   <Step Number="55" FadeIn="0" Hold="0" FadeOut="0">305</Step>
+   <Step Number="56" FadeIn="0" Hold="0" FadeOut="0">306</Step>
+   <Step Number="57" FadeIn="0" Hold="0" FadeOut="0">307</Step>
+   <Step Number="58" FadeIn="0" Hold="0" FadeOut="0">308</Step>
+   <Step Number="59" FadeIn="0" Hold="0" FadeOut="0">309</Step>
+   <Step Number="60" FadeIn="0" Hold="0" FadeOut="0">310</Step>
+   <Step Number="61" FadeIn="0" Hold="0" FadeOut="0">311</Step>
+   <Step Number="62" FadeIn="0" Hold="0" FadeOut="0">312</Step>
+   <Step Number="63" FadeIn="0" Hold="0" FadeOut="0">313</Step>
+   <Step Number="64" FadeIn="0" Hold="0" FadeOut="0">314</Step>
+   <Step Number="65" FadeIn="0" Hold="0" FadeOut="0">315</Step>
+   <Step Number="66" FadeIn="0" Hold="0" FadeOut="0">316</Step>
+   <Step Number="67" FadeIn="0" Hold="0" FadeOut="0">317</Step>
+   <Step Number="68" FadeIn="0" Hold="0" FadeOut="0">318</Step>
+  </Function>
+  <Function ID="320" Type="Scene" Name="Auto - Clouds">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">1,42</FixtureVal>
+  </Function>
+  <Function ID="321" Type="Scene" Name="Storm - Clouds">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">1,127</FixtureVal>
+  </Function>
+  <Function ID="322" Type="Scene" Name="Lightning - Clouds">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="3">1,212</FixtureVal>
   </Function>
  </Engine>
  <VirtualConsole>
@@ -948,7 +1439,7 @@
       <Font>Default</Font>
      </Appearance>
      <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="None" Monitor="false">Level</SliderMode>
-     <Level LowLimit="0" HighLimit="255" Value="201">
+     <Level LowLimit="0" HighLimit="255" Value="244">
       <Channel Fixture="1">3</Channel>
      </Level>
      <Playback>
@@ -997,7 +1488,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="17"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1010,7 +1501,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="46"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1023,7 +1514,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="47"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1036,7 +1527,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="48"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1049,7 +1540,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="49"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1062,7 +1553,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="50"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1075,7 +1566,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="51"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1088,7 +1579,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="73"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1101,7 +1592,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="74"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1114,7 +1605,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="75"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1127,7 +1618,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="76"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1140,7 +1631,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="77"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1153,7 +1644,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="78"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1166,7 +1657,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="79"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1179,7 +1670,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="80"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1192,7 +1683,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="81"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1205,7 +1696,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="82"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1218,7 +1709,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="83"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1231,7 +1722,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Arial Black,8,-1,5,87,0,0,0,0,0</Font>
       </Appearance>
-      <Function ID="135"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1244,7 +1735,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="152"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1257,7 +1748,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="153"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1270,7 +1761,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="154"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1283,7 +1774,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="155"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1296,7 +1787,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="156"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1309,7 +1800,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="157"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1322,7 +1813,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="158"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1335,7 +1826,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="159"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1348,7 +1839,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="160"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1361,7 +1852,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="161"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1391,7 +1882,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="163"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1404,7 +1895,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="164"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1417,7 +1908,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="165"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1430,7 +1921,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="166"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1443,7 +1934,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="167"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1456,7 +1947,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="168"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1469,7 +1960,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="169"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1545,7 +2036,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="53"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1558,7 +2049,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="54"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1571,7 +2062,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="55"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1584,7 +2075,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="56"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1597,7 +2088,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="57"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1610,7 +2101,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="58"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1623,7 +2114,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="59"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1636,7 +2127,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="60"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1649,7 +2140,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="62"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1662,7 +2153,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="63"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1675,7 +2166,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="64"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1688,7 +2179,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="65"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1701,7 +2192,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="66"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1714,7 +2205,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="67"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1727,7 +2218,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="68"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1740,7 +2231,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="69"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1753,7 +2244,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="70"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1766,7 +2257,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="71"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1779,7 +2270,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="72"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1792,7 +2283,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="85"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1805,7 +2296,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="86"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1818,7 +2309,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="87"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1831,7 +2322,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="88"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1844,7 +2335,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="89"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1857,7 +2348,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="90"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -1870,13 +2361,13 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="94"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
     </SoloFrame>
     <Slider Caption="Bright" ID="74" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="True" X="260" Y="45" Width="75" Height="255"/>
+     <WindowState Visible="True" X="265" Y="40" Width="75" Height="255"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>4281218102</ForegroundColor>
@@ -1935,13 +2426,31 @@
       <BackgroundImage>None</BackgroundImage>
       <Font>Default</Font>
      </Appearance>
-     <Chaser>98</Chaser>
+     <Chaser>144</Chaser>
      <NextPrevBehavior>0</NextPrevBehavior>
      <Next/>
      <Previous/>
      <Playback/>
      <Stop/>
     </CueList>
+    <Slider Caption="Colour Palette" ID="27" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="425" Y="295" Width="60" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <SliderMode ValueDisplayStyle="Exact" ClickAndGoType="Preset" Monitor="false">Level</SliderMode>
+     <Level LowLimit="0" HighLimit="68" Value="11">
+      <Channel Fixture="1">5</Channel>
+      <Channel Fixture="2">4</Channel>
+     </Level>
+     <Playback>
+      <Function>4294967295</Function>
+     </Playback>
+    </Slider>
    </Frame>
    <Frame Caption="Clouds" ID="70">
     <Appearance>
@@ -1957,7 +2466,7 @@
     <ShowHeader>True</ShowHeader>
     <ShowEnableButton>True</ShowEnableButton>
     <Collapsed>True</Collapsed>
-    <Disabled>False</Disabled>
+    <Disabled>True</Disabled>
     <SoloFrame Caption="Presets solo frame" ID="71">
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
@@ -1973,7 +2482,7 @@
      <ShowEnableButton>True</ShowEnableButton>
      <Mixing>False</Mixing>
      <Collapsed>False</Collapsed>
-     <Disabled>False</Disabled>
+     <Disabled>True</Disabled>
      <Button Caption="Auto" ID="72" Icon="">
       <WindowState Visible="True" X="10" Y="40" Width="50" Height="50"/>
       <Appearance>
@@ -1983,7 +2492,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="99"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -2009,7 +2518,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="101"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -2192,7 +2701,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="144"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -2205,7 +2714,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="145"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -2218,7 +2727,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="146"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -2231,7 +2740,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="147"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -2244,7 +2753,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="148"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
@@ -2257,7 +2766,7 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="149"/>
+      <Function ID="4294967295"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
