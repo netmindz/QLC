@@ -37,7 +37,7 @@
    <Name>Trance Jellyfish</Name>
    <Universe>0</Universe>
    <Address>0</Address>
-   <Channels>9</Channels>
+   <Channels>10</Channels>
   </Fixture>
   <Fixture>
    <Manufacturer>Will Tatam</Manufacturer>
@@ -98,6 +98,13 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">5,82</FixtureVal>
   </Function>
+  <Function ID="8" Type="Scene" Name="Mesmeriszer - Palette - Analogous_1 (Copy)">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <ChannelGroupsVal>0,96</ChannelGroupsVal>
+  </Function>
+  <Function ID="9" Type="Scene" Name="New Scene 9">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+  </Function>
   <Function ID="10" Type="Chaser" Name="Colour macros chaser - Panther 40 Led Spot">
    <Speed FadeIn="3000" FadeOut="0" Duration="10000"/>
    <Direction>Forward</Direction>
@@ -140,6 +147,10 @@
   <Function ID="16" Type="Scene" Name="movers-locaion-dj-cross-back">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">0,195,1,188</FixtureVal>
+  </Function>
+  <Function ID="17" Type="Scene" Name="TJ - TAP">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">9,255</FixtureVal>
   </Function>
   <Function ID="18" Type="Scene" Name="movers-gobo-smallspotssplat">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
@@ -252,6 +263,10 @@
   <Function ID="45" Type="Scene" Name="movers-gobo-roation-fast">
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="0">6,255</FixtureVal>
+  </Function>
+  <Function ID="46" Type="Scene" Name="TJ - TAP reset">
+   <Speed FadeIn="0" FadeOut="0" Duration="0"/>
+   <FixtureVal ID="1">9,0</FixtureVal>
   </Function>
   <Function ID="61" Type="Chaser" Name="movers-move-side shimmy">
    <Speed FadeIn="0" FadeOut="0" Duration="15"/>
@@ -1356,6 +1371,12 @@
    <Speed FadeIn="0" FadeOut="0" Duration="0"/>
    <FixtureVal ID="3">1,212</FixtureVal>
   </Function>
+  <Monitor DisplayMode="0" ShowLabels="0">
+   <Font>Arial,12,-1,5,50,0,0,0,0,0</Font>
+   <ChannelStyle>0</ChannelStyle>
+   <ValueStyle>0</ValueStyle>
+   <Grid Width="5" Height="3" Depth="5" Units="0"/>
+  </Monitor>
  </Engine>
  <VirtualConsole>
   <Frame Caption="">
@@ -1888,9 +1909,22 @@
       <Action>Flash</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
+     <Button Caption="TJ - TAP" ID="16" Icon="">
+      <WindowState Visible="True" X="20" Y="115" Width="50" Height="50"/>
+      <Appearance>
+       <FrameStyle>None</FrameStyle>
+       <ForegroundColor>Default</ForegroundColor>
+       <BackgroundColor>Default</BackgroundColor>
+       <BackgroundImage>None</BackgroundImage>
+       <Font>Default</Font>
+      </Appearance>
+      <Function ID="17"/>
+      <Action>Flash</Action>
+      <Intensity Adjust="False">100</Intensity>
+     </Button>
     </SoloFrame>
-    <Slider Caption="Click &amp; Go Macro" ID="321" WidgetStyle="Slider" InvertedAppearance="false">
-     <WindowState Visible="False" X="370" Y="280" Width="60" Height="200"/>
+    <Slider Caption="TJ Palette" ID="321" WidgetStyle="Slider" InvertedAppearance="false">
+     <WindowState Visible="True" X="410" Y="275" Width="60" Height="200"/>
      <Appearance>
       <FrameStyle>Sunken</FrameStyle>
       <ForegroundColor>Default</ForegroundColor>
@@ -2317,12 +2351,12 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="285"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="VU" ID="103" Icon="">
-      <WindowState Visible="False" X="170" Y="265" Width="80" Height="40"/>
+      <WindowState Visible="True" X="170" Y="265" Width="80" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -2330,12 +2364,12 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="286"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="FunkyPlank" ID="104" Icon="">
-      <WindowState Visible="False" X="10" Y="310" Width="80" Height="40"/>
+      <WindowState Visible="True" X="10" Y="310" Width="80" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -2343,12 +2377,12 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="287"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="DJLight" ID="105" Icon="">
-      <WindowState Visible="False" X="60" Y="310" Width="80" Height="40"/>
+      <WindowState Visible="True" X="60" Y="310" Width="80" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -2356,12 +2390,12 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="288"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="MSGEQtest" ID="106" Icon="">
-      <WindowState Visible="False" X="110" Y="310" Width="80" Height="40"/>
+      <WindowState Visible="True" X="110" Y="310" Width="80" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -2369,12 +2403,12 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="289"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="MSGEQtest2" ID="107" Icon="">
-      <WindowState Visible="False" X="170" Y="310" Width="80" Height="40"/>
+      <WindowState Visible="True" X="170" Y="310" Width="80" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -2382,12 +2416,12 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="290"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="MSGEQtest4" ID="108" Icon="">
-      <WindowState Visible="False" X="10" Y="355" Width="80" Height="40"/>
+      <WindowState Visible="True" X="10" Y="355" Width="80" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -2395,12 +2429,12 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="291"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="MSGEQtest7" ID="109" Icon="">
-      <WindowState Visible="False" X="80" Y="355" Width="80" Height="40"/>
+      <WindowState Visible="True" X="80" Y="355" Width="80" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -2408,12 +2442,12 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="292"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="MSGEQtest8" ID="110" Icon="">
-      <WindowState Visible="False" X="120" Y="355" Width="80" Height="40"/>
+      <WindowState Visible="True" X="120" Y="355" Width="80" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -2421,12 +2455,12 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="293"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
      <Button Caption="Audio1" ID="111" Icon="">
-      <WindowState Visible="False" X="170" Y="355" Width="80" Height="40"/>
+      <WindowState Visible="True" X="170" Y="355" Width="80" Height="40"/>
       <Appearance>
        <FrameStyle>None</FrameStyle>
        <ForegroundColor>Default</ForegroundColor>
@@ -2434,11 +2468,27 @@
        <BackgroundImage>None</BackgroundImage>
        <Font>Default</Font>
       </Appearance>
-      <Function ID="4294967295"/>
+      <Function ID="294"/>
       <Action>Toggle</Action>
       <Intensity Adjust="False">100</Intensity>
      </Button>
     </SoloFrame>
+    <CueList Caption="Cue list" ID="15">
+     <WindowState Visible="True" X="265" Y="295" Width="310" Height="200"/>
+     <Appearance>
+      <FrameStyle>Sunken</FrameStyle>
+      <ForegroundColor>Default</ForegroundColor>
+      <BackgroundColor>Default</BackgroundColor>
+      <BackgroundImage>None</BackgroundImage>
+      <Font>Default</Font>
+     </Appearance>
+     <Chaser>158</Chaser>
+     <NextPrevBehavior>0</NextPrevBehavior>
+     <Next/>
+     <Previous/>
+     <Playback/>
+     <Stop/>
+    </CueList>
    </Frame>
    <Frame Caption="Movers" ID="118">
     <Appearance>
