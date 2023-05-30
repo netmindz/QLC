@@ -132,6 +132,9 @@
  <Channel Name="Red" Preset="IntensityRed"/>
  <Channel Name="Green" Preset="IntensityGreen"/>
  <Channel Name="Blue" Preset="IntensityBlue"/>
+ <Channel Name="Tap">
+  <Group Byte="0">Intensity</Group>
+ </Channel>
  <Mode Name="Default">
   <Physical>
    <Bulb Type="" Lumens="0" ColourTemperature="0"/>
@@ -149,6 +152,7 @@
   <Channel Number="6">Red</Channel>
   <Channel Number="7">Green</Channel>
   <Channel Number="8">Blue</Channel>
+  <Channel Number="9">Tap</Channel>
  </Mode>
  <Physical>
   <Bulb Type="" Lumens="0" ColourTemperature="0"/>
